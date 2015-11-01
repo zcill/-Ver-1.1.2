@@ -47,6 +47,7 @@
     if (!self)
         return nil;
     self.destVcClass = destVcClass;
+    
     return self;
 }
 

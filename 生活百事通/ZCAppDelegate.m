@@ -7,7 +7,7 @@
 //
 
 #import "ZCAppDelegate.h"
-#import "ZCCustomTabBar.h"
+#import "ZCTabBar.h"
 
 @interface ZCAppDelegate ()
 
@@ -21,7 +21,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
     
-    ZCCustomTabBar *tab = [[ZCCustomTabBar alloc] init];
+    ZCTabBar *tab = [[ZCTabBar alloc] init];
     
     self.window.rootViewController = tab;
     [self.window makeKeyAndVisible];

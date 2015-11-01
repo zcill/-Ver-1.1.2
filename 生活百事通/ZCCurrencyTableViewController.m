@@ -113,6 +113,7 @@
             
         }];
         
+        optionsController.hidesBottomBarWhenPushed = YES;
         [weakSelf.navigationController pushViewController:optionsController animated:YES];
 
     }];

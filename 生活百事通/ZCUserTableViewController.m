@@ -221,7 +221,7 @@
 - (UILabel *)versionLabel {
     
     UILabel *versionLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, [[UIScreen mainScreen] bounds].size.width, [[UIScreen mainScreen] bounds].size.height)];
-    versionLabel.text = @"LifeTools iOS Version 1.1";
+    versionLabel.text = @"LifeTools iOS Version 1.1.2";
     versionLabel.font = [UIFont fontWithName:@"Menlo" size:12];
     versionLabel.textColor = [UIColor lightGrayColor];
     versionLabel.textAlignment = NSTextAlignmentCenter;

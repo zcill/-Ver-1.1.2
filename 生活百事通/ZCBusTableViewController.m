@@ -117,6 +117,7 @@
         
         [self addSearchBar];
         optionsController.tableView.tableHeaderView = self.searchBar;
+        optionsController.hidesBottomBarWhenPushed = YES;
         
         [weakSelf.navigationController pushViewController:optionsController animated:YES];
         

@@ -78,7 +78,7 @@ static NSString * const reuseIdentifier = @"ZCItemCell";
     
     ZCCitiesTableViewController *cities = [[ZCCitiesTableViewController alloc] initWithStyle:UITableViewStylePlain];
     cities.delegate = self;
-    
+    cities.hidesBottomBarWhenPushed = YES;
     [self.navigationController pushViewController:cities animated:YES];
     
 }
@@ -179,8 +179,9 @@ static NSString * const reuseIdentifier = @"ZCItemCell";
     
     ZCSectionModel *section = [ZCSectionModel defaultSection];
     section.headerTitle = @"必备技能";
+    
     ZCItemModel *busItem = [ZCItemModel itemWithTitle:@"公交查询" icon:@"s4" destVcClass:[ZCBusTableViewController class]];
-    ZCItemModel *scanItem = [ZCItemModel itemWithTitle:@"扫描二维码" icon:@"a0" destVcClass:[ZCRootViewController class]];
+    ZCItemModel *scanItem = [ZCItemModel itemWithTitle:@"扫描二维码" icon:@"a0" destVcClass:[ZCScannerTableViewController class]];
     
     [section.items addObjectsFromArray:@[busItem, scanItem]];
     [self.sections addObject:section];

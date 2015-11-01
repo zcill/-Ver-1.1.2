@@ -8,7 +8,7 @@
 //
 
 #import "ZCCitiesTableViewController.h"
-#import "ZCCustomTabBar.h"
+#import "ZCTabBar.h"
 
 @interface ZCCitiesTableViewController ()
 

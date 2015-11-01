@@ -1,16 +1,18 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "03780D7A5A383A5DD53BDB9A1E579C4973870DAE",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "74D62B4EC411C444AE4A1E73E3939A9FA34CB08E",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "03780D7A5A383A5DD53BDB9A1E579C4973870DAE" : 0,
     "62AFCD22C1EED49F4A7A1C2577E21F6BB0C4CFAE" : 0,
-    "03780D7A5A383A5DD53BDB9A1E579C4973870DAE" : 0
+    "74D62B4EC411C444AE4A1E73E3939A9FA34CB08E" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6AE9C4E7-1F89-46FA-AC3A-F1718461DBC4",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "03780D7A5A383A5DD53BDB9A1E579C4973870DAE" : "%E7%94%9F%E6%B4%BB%E7%99%BE%E4%BA%8B%E9%80%9A\/",
     "62AFCD22C1EED49F4A7A1C2577E21F6BB0C4CFAE" : "%E7%94%9F%E6%B4%BB%E7%99%BE%E4%BA%8B%E9%80%9A\/ZCQuickCreate\/",
-    "03780D7A5A383A5DD53BDB9A1E579C4973870DAE" : "%E7%94%9F%E6%B4%BB%E7%99%BE%E4%BA%8B%E9%80%9A\/"
+    "74D62B4EC411C444AE4A1E73E3939A9FA34CB08E" : "%E7%94%9F%E6%B4%BB%E7%99%BE%E4%BA%8B%E9%80%9A%20Ver%201.1.2\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "生活百事通",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -25,6 +27,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zcill\/ZCQuickCreate.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "62AFCD22C1EED49F4A7A1C2577E21F6BB0C4CFAE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zcill\/-Ver-1.1.2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "74D62B4EC411C444AE4A1E73E3939A9FA34CB08E"
     }
   ]
 }

@@ -27,6 +27,8 @@
 #import "ZCIPSearchTableViewController.h"
 #import "ZCCurrencyTableViewController.h"
 #import "ZCBusTableViewController.h"
+#import "ZCScanViewController.h"
+#import "ZCScannerTableViewController.h"
 
 // 导入工具类、第三方库
 #import "CSStickyHeaderFlowLayout.h"

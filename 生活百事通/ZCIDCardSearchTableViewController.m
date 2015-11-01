@@ -32,7 +32,7 @@
     [super viewDidLoad];
     
     self.title = @"国内身份证查询验证";
-    
+
 //    self.view.backgroundColor = RGBA(231, 231, 231, 1);
     
     self.manager = [[RETableViewManager alloc] initWithTableView:self.tableView];

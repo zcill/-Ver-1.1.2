@@ -32,7 +32,7 @@
     [super viewDidLoad];
     
     self.title = @"国内手机归属地查询";
-    
+
     self.manager = [[RETableViewManager alloc] initWithTableView:self.tableView];
     self.manager.style.cellHeight = 36;
     
