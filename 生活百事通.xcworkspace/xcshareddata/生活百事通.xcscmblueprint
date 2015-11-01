@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "03780D7A5A383A5DD53BDB9A1E579C4973870DAE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "62AFCD22C1EED49F4A7A1C2577E21F6BB0C4CFAE" : 0,
+    "03780D7A5A383A5DD53BDB9A1E579C4973870DAE" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6AE9C4E7-1F89-46FA-AC3A-F1718461DBC4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "62AFCD22C1EED49F4A7A1C2577E21F6BB0C4CFAE" : "%E7%94%9F%E6%B4%BB%E7%99%BE%E4%BA%8B%E9%80%9A\/ZCQuickCreate\/",
+    "03780D7A5A383A5DD53BDB9A1E579C4973870DAE" : "%E7%94%9F%E6%B4%BB%E7%99%BE%E4%BA%8B%E9%80%9A\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "生活百事通",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "生活百事通.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zcill\/LifeTools.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "03780D7A5A383A5DD53BDB9A1E579C4973870DAE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zcill\/ZCQuickCreate.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "62AFCD22C1EED49F4A7A1C2577E21F6BB0C4CFAE"
+    }
+  ]
+}

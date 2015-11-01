@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6AE9C4E7-1F89-46FA-AC3A-F1718461DBC4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>生活百事通</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>271F5B41600D2574E82C2F71B4FB5F6499BBBA7E</key>
+		<string>https://github.com/zcill/LifeTools.git</string>
+		<key>62AFCD22C1EED49F4A7A1C2577E21F6BB0C4CFAE</key>
+		<string>https://github.com/zcill/ZCQuickCreate.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>生活百事通.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>271F5B41600D2574E82C2F71B4FB5F6499BBBA7E</key>
+		<string>..</string>
+		<key>62AFCD22C1EED49F4A7A1C2577E21F6BB0C4CFAE</key>
+		<string>..ZCQuickCreate/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zcill/LifeTools.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>271F5B41600D2574E82C2F71B4FB5F6499BBBA7E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>271F5B41600D2574E82C2F71B4FB5F6499BBBA7E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>%E7%94%9F%E6%B4%BB%E7%99%BE%E4%BA%8B%E9%80%9A</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>62AFCD22C1EED49F4A7A1C2577E21F6BB0C4CFAE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ZCQuickCreate</string>
+		</dict>
+	</array>
+</dict>
+</plist>
