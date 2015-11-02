@@ -181,7 +181,7 @@ static NSString * const reuseIdentifier = @"ZCItemCell";
     section.headerTitle = @"必备技能";
     
     ZCItemModel *busItem = [ZCItemModel itemWithTitle:@"公交查询" icon:@"s4" destVcClass:[ZCBusTableViewController class]];
-    ZCItemModel *scanItem = [ZCItemModel itemWithTitle:@"扫描二维码" icon:@"a0" destVcClass:[ZCScannerTableViewController class]];
+    ZCItemModel *scanItem = [ZCItemModel itemWithTitle:@"二维码扫描" icon:@"a0" destVcClass:[ZCScannerTableViewController class]];
     
     [section.items addObjectsFromArray:@[busItem, scanItem]];
     [self.sections addObject:section];

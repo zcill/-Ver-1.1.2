@@ -11,7 +11,6 @@
 #import <RETableViewManager/RETableViewOptionsController.h>
 
 #import "ScanViewController.h"
-#import "HistoryViewController.h"
 #import "InfoViewController.h"
 #import "MakerViewController.h"
 
@@ -20,6 +19,11 @@
 #import "Scanner.h"
 
 @interface ZCScannerTableViewController ()
+{
+    ScanViewController *scan;
+    UIButton *turnButton;
+    UIButton *makerButton;
+}
 
 @property (nonatomic, strong) RETableViewManager *manager;
 @property (nonatomic, strong) RETableViewItem *historyItem;
@@ -64,7 +68,7 @@
     // 添加头部视图
     RETableViewSection *headerSection = [RETableViewSection sectionWithHeaderView:imageView];
     [self.manager addSection:headerSection];
-    headerSection.headerTitle = @"扫描二维码、条形码，可以查看扫描历史，还可以生成二维码";
+    headerSection.footerTitle = @"扫描二维码、条形码，也可以生成二维码";
     
 }
 
@@ -74,22 +78,10 @@
     RETableViewSection *headerSection = [RETableViewSection section];
     [self.manager addSection:headerSection];
     
-    // 扫描历史
-    RETableViewItem *historyItem = [RETableViewItem itemWithTitle:@"扫描历史" accessoryType:UITableViewCellAccessoryDisclosureIndicator selectionHandler:^(RETableViewItem *item) {
-        
-        HistoryViewController *history = [[HistoryViewController alloc] init];
-        history.hidesBottomBarWhenPushed = YES;
-        
-        [self.navigationController pushViewController:history animated:YES];
-        
-    }];
-    [headerSection addItem:historyItem];
-    self.historyItem = historyItem;
-    
     // 扫描
     RETableViewItem *scanItem = [RETableViewItem itemWithTitle:@"扫描二维码" accessoryType:UITableViewCellAccessoryDisclosureIndicator selectionHandler:^(RETableViewItem *item) {
         
-        ScanViewController *scan = [[ScanViewController alloc] init];
+        scan = [[ScanViewController alloc] init];
         [scan finishingBlock:^(NSString *string) {
             NSLog(@"string:%@",string);
             InfoViewController *info = [[InfoViewController alloc]init];
@@ -99,6 +91,15 @@
             [self.navigationController pushViewController:info animated:YES];
             
         }];
+        
+        turnButton = [UIButton buttonWithType:UIButtonTypeCustom];
+        [turnButton setImage:[UIImage imageNamed:@"icon_light_normal.png"] forState:UIControlStateNormal];
+        [turnButton setImage:[UIImage imageNamed:@"icon_light.png"] forState:UIControlStateSelected];
+        
+        turnButton.frame = CGRectMake(0, 0, 20, 20);
+        [turnButton addTarget:self action:@selector(turnLightTouched:) forControlEvents:UIControlEventTouchUpInside];
+        turnButton.selected = scan.lighting;
+        [scan addRightBarButtonItem:turnButton];
         
         scan.hidesBottomBarWhenPushed = YES;
         
@@ -112,10 +113,15 @@
     RETableViewItem *makeItem = [RETableViewItem itemWithTitle:@"生成二维码" accessoryType:UITableViewCellAccessoryDisclosureIndicator selectionHandler:^(RETableViewItem *item) {
         
         MakerViewController *maker = [[MakerViewController alloc] init];
-        maker = [[MakerViewController alloc]init];
-        maker.navigationItem.title=@"生成二维码";
-        maker.hidesBottomBarWhenPushed = YES;
         
+        makerButton = [UIButton buttonWithType:UIButtonTypeCustom];
+        [makerButton setImage:[UIImage imageNamed:@"icon_done.png"] forState:UIControlStateNormal];
+        
+        makerButton.frame = CGRectMake(0, 0, 25, 25);
+        [makerButton addTarget:maker action:@selector(makerTouched:) forControlEvents:UIControlEventTouchUpInside];
+        [maker addRightBarButtonItem:makerButton];
+        
+        maker.hidesBottomBarWhenPushed = YES;
         [self.navigationController pushViewController:maker animated:YES];
         
     }];
@@ -123,6 +129,47 @@
     self.makeItem = makeItem;
     
 }
+
+- (void)turnLightTouched:(UIButton*)sender{
+    if (!sender) {
+        [scan turnLight:NO];
+        turnButton.selected = NO;
+    }else{
+        [scan turnLight:!scan.lighting];
+        turnButton.selected = scan.lighting;
+    }
+}
+
+- (void)addLeftBarButtonItem:(UIButton *)button
+{
+    UIBarButtonItem *leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:button];
+    UIBarButtonItem *negativeSpacer = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace target:nil action:nil];
+    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0) {
+        // Add a negative spacer on iOS >= 7.0
+        negativeSpacer.width = -10;
+    } else {
+        // Just set the UIBarButtonItem as you would normally
+        negativeSpacer.width = 0;
+        [self.navigationItem setLeftBarButtonItem:leftBarButtonItem];
+    }
+    [self.navigationItem setLeftBarButtonItems:[NSArray arrayWithObjects:negativeSpacer, leftBarButtonItem, nil]];
+}
+- (void)addRightBarButtonItem:(UIButton *)button
+{
+    UIBarButtonItem *rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:button];
+    UIBarButtonItem *negativeSpacer = [[UIBarButtonItem alloc]
+                                       initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace
+                                       target:nil action:nil];
+    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0) {
+        
+        negativeSpacer.width = -10;
+        
+    } else {
+        negativeSpacer.width = 0;
+    }
+    [self.navigationItem setRightBarButtonItems:[NSArray arrayWithObjects:negativeSpacer, rightBarButtonItem, nil]];
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

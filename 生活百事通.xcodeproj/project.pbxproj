@@ -24,6 +24,9 @@
 		4C9B479E1BDE09450030B947 /* Cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C9B47981BDE09450030B947 /* Cities.plist */; };
 		4C9B47A01BDE09450030B947 /* Orders.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C9B479A1BDE09450030B947 /* Orders.plist */; };
 		4C9B47A11BDE09450030B947 /* ProvincesAndCities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C9B479B1BDE09450030B947 /* ProvincesAndCities.plist */; };
+		4CAEF17C1BE6534200A2726B /* DateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEF1771BE6534200A2726B /* DateManager.m */; };
+		4CAEF17D1BE6534200A2726B /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEF1791BE6534200A2726B /* DBManager.m */; };
+		4CAEF17E1BE6534200A2726B /* DBManagerQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEF17B1BE6534200A2726B /* DBManagerQueue.m */; };
 		4CB141651BDA24E40060F5A5 /* ZCWeatherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB141641BDA24E40060F5A5 /* ZCWeatherModel.m */; };
 		4CDBCB811BD789B900310898 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBCB801BD789B900310898 /* main.m */; };
 		4CDBCB841BD789B900310898 /* ZCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBCB831BD789B900310898 /* ZCAppDelegate.m */; };
@@ -37,12 +40,8 @@
 		4CEE0B9E1BE614CF0026B344 /* ZCAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEE0B9A1BE614CF0026B344 /* ZCAboutViewController.m */; };
 		4CEE0B9F1BE614CF0026B344 /* ZCAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CEE0B9B1BE614CF0026B344 /* ZCAboutViewController.xib */; };
 		4CEE0BA01BE614CF0026B344 /* ZCUserTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEE0B9D1BE614CF0026B344 /* ZCUserTableViewController.m */; };
-		4CEE0C001BE61A900026B344 /* ZCScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEE0BFF1BE61A900026B344 /* ZCScanViewController.m */; };
 		4CEE0C021BE61AFD0026B344 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CEE0C011BE61AFD0026B344 /* libsqlite3.tbd */; };
 		4CEE0C081BE63D470026B344 /* ZCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEE0C071BE63D470026B344 /* ZCTabBar.m */; };
-		4CEE0C461BE648E00026B344 /* DateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEE0C0E1BE648E00026B344 /* DateManager.m */; };
-		4CEE0C471BE648E00026B344 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEE0C101BE648E00026B344 /* DBManager.m */; };
-		4CEE0C481BE648E00026B344 /* DBManagerQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEE0C121BE648E00026B344 /* DBManagerQueue.m */; };
 		4CEE0C491BE648E00026B344 /* icon_clean@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CEE0C141BE648E00026B344 /* icon_clean@2x.png */; };
 		4CEE0C4A1BE648E00026B344 /* icon_clean@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CEE0C151BE648E00026B344 /* icon_clean@3x.png */; };
 		4CEE0C4B1BE648E00026B344 /* icon_copy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CEE0C161BE648E00026B344 /* icon_copy@2x.png */; };
@@ -137,6 +136,12 @@
 		4C9B47981BDE09450030B947 /* Cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Cities.plist; sourceTree = "<group>"; };
 		4C9B479A1BDE09450030B947 /* Orders.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Orders.plist; sourceTree = "<group>"; };
 		4C9B479B1BDE09450030B947 /* ProvincesAndCities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ProvincesAndCities.plist; sourceTree = "<group>"; };
+		4CAEF1761BE6534200A2726B /* DateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateManager.h; sourceTree = "<group>"; };
+		4CAEF1771BE6534200A2726B /* DateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateManager.m; sourceTree = "<group>"; };
+		4CAEF1781BE6534200A2726B /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		4CAEF1791BE6534200A2726B /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		4CAEF17A1BE6534200A2726B /* DBManagerQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManagerQueue.h; sourceTree = "<group>"; };
+		4CAEF17B1BE6534200A2726B /* DBManagerQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManagerQueue.m; sourceTree = "<group>"; };
 		4CB141631BDA24E40060F5A5 /* ZCWeatherModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCWeatherModel.h; sourceTree = "<group>"; };
 		4CB141641BDA24E40060F5A5 /* ZCWeatherModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCWeatherModel.m; sourceTree = "<group>"; };
 		4CDBCB7C1BD789B900310898 /* 生活百事通.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "生活百事通.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -165,17 +170,9 @@
 		4CEE0B9B1BE614CF0026B344 /* ZCAboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZCAboutViewController.xib; sourceTree = "<group>"; };
 		4CEE0B9C1BE614CF0026B344 /* ZCUserTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCUserTableViewController.h; sourceTree = "<group>"; };
 		4CEE0B9D1BE614CF0026B344 /* ZCUserTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCUserTableViewController.m; sourceTree = "<group>"; };
-		4CEE0BFE1BE61A900026B344 /* ZCScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCScanViewController.h; sourceTree = "<group>"; };
-		4CEE0BFF1BE61A900026B344 /* ZCScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCScanViewController.m; sourceTree = "<group>"; };
 		4CEE0C011BE61AFD0026B344 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		4CEE0C061BE63D470026B344 /* ZCTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCTabBar.h; sourceTree = "<group>"; };
 		4CEE0C071BE63D470026B344 /* ZCTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCTabBar.m; sourceTree = "<group>"; };
-		4CEE0C0D1BE648E00026B344 /* DateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateManager.h; sourceTree = "<group>"; };
-		4CEE0C0E1BE648E00026B344 /* DateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateManager.m; sourceTree = "<group>"; };
-		4CEE0C0F1BE648E00026B344 /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
-		4CEE0C101BE648E00026B344 /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
-		4CEE0C111BE648E00026B344 /* DBManagerQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManagerQueue.h; sourceTree = "<group>"; };
-		4CEE0C121BE648E00026B344 /* DBManagerQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManagerQueue.m; sourceTree = "<group>"; };
 		4CEE0C141BE648E00026B344 /* icon_clean@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_clean@2x.png"; sourceTree = "<group>"; };
 		4CEE0C151BE648E00026B344 /* icon_clean@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_clean@3x.png"; sourceTree = "<group>"; };
 		4CEE0C161BE648E00026B344 /* icon_copy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_copy@2x.png"; sourceTree = "<group>"; };
@@ -416,6 +413,19 @@
 			name = "必备技能";
 			sourceTree = "<group>";
 		};
+		4CAEF1751BE6534200A2726B /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				4CAEF1761BE6534200A2726B /* DateManager.h */,
+				4CAEF1771BE6534200A2726B /* DateManager.m */,
+				4CAEF1781BE6534200A2726B /* DBManager.h */,
+				4CAEF1791BE6534200A2726B /* DBManager.m */,
+				4CAEF17A1BE6534200A2726B /* DBManagerQueue.h */,
+				4CAEF17B1BE6534200A2726B /* DBManagerQueue.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 		4CBB8C121BE4DD97002732E5 /* 主页面 */ = {
 			isa = PBXGroup;
 			children = (
@@ -550,19 +560,6 @@
 			name = "User(我的)";
 			sourceTree = "<group>";
 		};
-		4CEE0C0C1BE648E00026B344 /* DBManager */ = {
-			isa = PBXGroup;
-			children = (
-				4CEE0C0D1BE648E00026B344 /* DateManager.h */,
-				4CEE0C0E1BE648E00026B344 /* DateManager.m */,
-				4CEE0C0F1BE648E00026B344 /* DBManager.h */,
-				4CEE0C101BE648E00026B344 /* DBManager.m */,
-				4CEE0C111BE648E00026B344 /* DBManagerQueue.h */,
-				4CEE0C121BE648E00026B344 /* DBManagerQueue.m */,
-			);
-			path = DBManager;
-			sourceTree = "<group>";
-		};
 		4CEE0C131BE648E00026B344 /* Image */ = {
 			isa = PBXGroup;
 			children = (
@@ -683,9 +680,7 @@
 		4CEE0C681BE648F80026B344 /* ZCScan */ = {
 			isa = PBXGroup;
 			children = (
-				4CEE0BFE1BE61A900026B344 /* ZCScanViewController.h */,
-				4CEE0BFF1BE61A900026B344 /* ZCScanViewController.m */,
-				4CEE0C0C1BE648E00026B344 /* DBManager */,
+				4CAEF1751BE6534200A2726B /* Manager */,
 				4CEE0C131BE648E00026B344 /* Image */,
 				4CEE0C241BE648E00026B344 /* ScanModel */,
 				4CEE0C271BE648E00026B344 /* ScanViewControllers */,
@@ -981,6 +976,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CF8DB3D1BD886D0006853CB /* ZCMainCollectionViewController.m in Sources */,
+				4CAEF17C1BE6534200A2726B /* DateManager.m in Sources */,
 				4CEE0B9E1BE614CF0026B344 /* ZCAboutViewController.m in Sources */,
 				4CEE0C5F1BE648E00026B344 /* InfoViewController.m in Sources */,
 				4C4A28F01BE211A3003E9E5E /* ZCCurrencyTableViewController.m in Sources */,
@@ -988,15 +984,12 @@
 				4CEE0C081BE63D470026B344 /* ZCTabBar.m in Sources */,
 				4CF8DB601BD8D130006853CB /* CSStickyHeaderFlowLayoutAttributes.m in Sources */,
 				4C3631871BDA566D0010C0CC /* ZCHttpRequestTool.m in Sources */,
-				4CEE0C001BE61A900026B344 /* ZCScanViewController.m in Sources */,
-				4CEE0C461BE648E00026B344 /* DateManager.m in Sources */,
-				4CEE0C471BE648E00026B344 /* DBManager.m in Sources */,
 				4CEE0C631BE648E00026B344 /* ScanViewController.m in Sources */,
 				4CEE0C651BE648E00026B344 /* ImagePickerController.m in Sources */,
 				4CEC81C71BE492BA000AFF83 /* ZCAllToolsCollectionViewController.m in Sources */,
 				4CEE0C671BE648E00026B344 /* JKToast.m in Sources */,
-				4CEE0C481BE648E00026B344 /* DBManagerQueue.m in Sources */,
 				4CDBCB841BD789B900310898 /* ZCAppDelegate.m in Sources */,
+				4CAEF17D1BE6534200A2726B /* DBManager.m in Sources */,
 				4CEE0C5B1BE648E00026B344 /* Cell.m in Sources */,
 				4CEE0C5A1BE648E00026B344 /* BaseViewController.m in Sources */,
 				4CDBCB811BD789B900310898 /* main.m in Sources */,
@@ -1018,6 +1011,7 @@
 				4CEE0C661BE648E00026B344 /* JKAlert.m in Sources */,
 				4C6B33DB1BD7BEE200475586 /* UIButton+ZCQuickCreateButton.m in Sources */,
 				4C6B33C51BD7967F00475586 /* ZCRootViewController.m in Sources */,
+				4CAEF17E1BE6534200A2726B /* DBManagerQueue.m in Sources */,
 				4C9B47951BDE06CB0030B947 /* ZCCitiesTableViewController.m in Sources */,
 				4CEE0C611BE648E00026B344 /* MakerViewController.m in Sources */,
 				4CEE0C5D1BE648E00026B344 /* HistoryViewController.m in Sources */,

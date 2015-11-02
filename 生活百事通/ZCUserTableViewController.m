@@ -60,7 +60,10 @@
     [self.manager addSection:section];
     section.headerTitle = @"检查更新";
     section.headerHeight = SectionHeaderHeight;
-    section.footerHeight = SectionFooterHeight;
+    section.footerHeight = 30;
+    
+    UILabel *versionLabel = [self versionLabel];
+    section.footerView = versionLabel;
     
     // 创建检查更新条目
     RETableViewItem *item = [RETableViewItem itemWithTitle:@"检查更新" accessoryType:UITableViewCellAccessoryNone selectionHandler:^(RETableViewItem *item) {
@@ -193,11 +196,8 @@
     [self.manager addSection:section];
     
     section.headerHeight = SectionHeaderHeight;
-    section.footerHeight = 30;
+    section.footerHeight = SectionFooterHeight;
     section.headerTitle = @"关于";
-    
-    UILabel *versionLabel = [self versionLabel];
-    section.footerView = versionLabel;
     
     // 创建开源许可条目
     RETableViewItem *licenceItem = [RETableViewItem itemWithTitle:@"开源许可" accessoryType:UITableViewCellAccessoryDisclosureIndicator selectionHandler:^(RETableViewItem *item) {
