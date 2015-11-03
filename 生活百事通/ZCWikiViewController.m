@@ -7,7 +7,8 @@
 //
 
 #import "ZCWikiViewController.h"
-#import <WebKit/WebKit.h>
+#import "ZCHeader.h"
+@import WebKit;
 
 @interface ZCWikiViewController ()<WKNavigationDelegate>
 
@@ -25,12 +26,12 @@
 
 - (void)initWKWebView {
     
-    self.webView = [[WKWebView alloc] initWithFrame:self.view.bounds];
+    self.webView = [[WKWebView alloc] initWithFrame:CGRectMake(0, 0, ScreenWidth, ScreenHeight - 49)];
     self.webView.allowsBackForwardNavigationGestures = YES;
     self.webView.navigationDelegate = self;
     [self.view addSubview:self.webView];
     
-    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"www.baidu.com"]]];
+    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://wapbaike.baidu.com"]]];
     
 }
 
