@@ -17,7 +17,6 @@
 		4C5863321BE39C4C00E75DC9 /* ZCSearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5863311BE39C4C00E75DC9 /* ZCSearchTableViewController.m */; };
 		4C6B33C51BD7967F00475586 /* ZCRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B33C41BD7967F00475586 /* ZCRootViewController.m */; };
 		4C6B33DB1BD7BEE200475586 /* UIButton+ZCQuickCreateButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B33DA1BD7BEE200475586 /* UIButton+ZCQuickCreateButton.m */; };
-		4C73D0921BE4B37D00A0CFE2 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C73D0911BE4B37D00A0CFE2 /* icon.png */; };
 		4C9B47951BDE06CB0030B947 /* ZCCitiesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9B47941BDE06CB0030B947 /* ZCCitiesTableViewController.m */; };
 		4C9B479C1BDE09450030B947 /* Categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C9B47961BDE09450030B947 /* Categories.plist */; };
 		4C9B479D1BDE09450030B947 /* Categoriesaaa.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C9B47971BDE09450030B947 /* Categoriesaaa.plist */; };
@@ -28,6 +27,7 @@
 		4CAEF17D1BE6534200A2726B /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEF1791BE6534200A2726B /* DBManager.m */; };
 		4CAEF17E1BE6534200A2726B /* DBManagerQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEF17B1BE6534200A2726B /* DBManagerQueue.m */; };
 		4CB141651BDA24E40060F5A5 /* ZCWeatherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB141641BDA24E40060F5A5 /* ZCWeatherModel.m */; };
+		4CB52F721BE79A46009DEEAB /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB52F711BE79A46009DEEAB /* icon.png */; };
 		4CDBCB811BD789B900310898 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBCB801BD789B900310898 /* main.m */; };
 		4CDBCB841BD789B900310898 /* ZCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBCB831BD789B900310898 /* ZCAppDelegate.m */; };
 		4CDBCB8A1BD789B900310898 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CDBCB881BD789B900310898 /* Main.storyboard */; };
@@ -37,6 +37,7 @@
 		4CE685081BE38A3400D0647C /* ZCBusTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE685071BE38A3400D0647C /* ZCBusTableViewController.m */; };
 		4CE6850A1BE390A100D0647C /* Bus_Cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CE685091BE390A100D0647C /* Bus_Cities.plist */; };
 		4CEC81C71BE492BA000AFF83 /* ZCAllToolsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEC81C61BE492BA000AFF83 /* ZCAllToolsCollectionViewController.m */; };
+		4CECEC141BE8410600CB0363 /* ZCWikiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CECEC131BE8410600CB0363 /* ZCWikiViewController.m */; };
 		4CEE0B9E1BE614CF0026B344 /* ZCAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEE0B9A1BE614CF0026B344 /* ZCAboutViewController.m */; };
 		4CEE0B9F1BE614CF0026B344 /* ZCAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CEE0B9B1BE614CF0026B344 /* ZCAboutViewController.xib */; };
 		4CEE0BA01BE614CF0026B344 /* ZCUserTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEE0B9D1BE614CF0026B344 /* ZCUserTableViewController.m */; };
@@ -128,7 +129,6 @@
 		4C6B33C91BD7B6CD00475586 /* ZCHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZCHeader.h; path = "生活百事通/ZCHeader.h"; sourceTree = "<group>"; };
 		4C6B33D91BD7BEE200475586 /* UIButton+ZCQuickCreateButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ZCQuickCreateButton.h"; sourceTree = "<group>"; };
 		4C6B33DA1BD7BEE200475586 /* UIButton+ZCQuickCreateButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ZCQuickCreateButton.m"; sourceTree = "<group>"; };
-		4C73D0911BE4B37D00A0CFE2 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		4C9B47931BDE06CB0030B947 /* ZCCitiesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCCitiesTableViewController.h; sourceTree = "<group>"; };
 		4C9B47941BDE06CB0030B947 /* ZCCitiesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCCitiesTableViewController.m; sourceTree = "<group>"; };
 		4C9B47961BDE09450030B947 /* Categories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Categories.plist; sourceTree = "<group>"; };
@@ -144,6 +144,7 @@
 		4CAEF17B1BE6534200A2726B /* DBManagerQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManagerQueue.m; sourceTree = "<group>"; };
 		4CB141631BDA24E40060F5A5 /* ZCWeatherModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCWeatherModel.h; sourceTree = "<group>"; };
 		4CB141641BDA24E40060F5A5 /* ZCWeatherModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCWeatherModel.m; sourceTree = "<group>"; };
+		4CB52F711BE79A46009DEEAB /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		4CDBCB7C1BD789B900310898 /* 生活百事通.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "生活百事通.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CDBCB801BD789B900310898 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4CDBCB821BD789B900310898 /* ZCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCAppDelegate.h; sourceTree = "<group>"; };
@@ -165,6 +166,8 @@
 		4CEC81C61BE492BA000AFF83 /* ZCAllToolsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCAllToolsCollectionViewController.m; sourceTree = "<group>"; };
 		4CEC81C81BE492EC000AFF83 /* ZCMainControllerHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCMainControllerHeader.h; sourceTree = "<group>"; };
 		4CEC81C91BE495B0000AFF83 /* ZCAllToolsControllerHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCAllToolsControllerHeader.h; sourceTree = "<group>"; };
+		4CECEC121BE8410600CB0363 /* ZCWikiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCWikiViewController.h; sourceTree = "<group>"; };
+		4CECEC131BE8410600CB0363 /* ZCWikiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCWikiViewController.m; sourceTree = "<group>"; };
 		4CEE0B991BE614CF0026B344 /* ZCAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCAboutViewController.h; sourceTree = "<group>"; };
 		4CEE0B9A1BE614CF0026B344 /* ZCAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCAboutViewController.m; sourceTree = "<group>"; };
 		4CEE0B9B1BE614CF0026B344 /* ZCAboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZCAboutViewController.xib; sourceTree = "<group>"; };
@@ -347,7 +350,7 @@
 		4C6B33C01BD7963800475586 /* resource */ = {
 			isa = PBXGroup;
 			children = (
-				4C73D0911BE4B37D00A0CFE2 /* icon.png */,
+				4CB52F711BE79A46009DEEAB /* icon.png */,
 			);
 			name = resource;
 			sourceTree = "<group>";
@@ -439,6 +442,8 @@
 		4CBB8C131BE4DE12002732E5 /* 各类功能(二级页面) */ = {
 			isa = PBXGroup;
 			children = (
+				4CECEC121BE8410600CB0363 /* ZCWikiViewController.h */,
+				4CECEC131BE8410600CB0363 /* ZCWikiViewController.m */,
 			);
 			name = "各类功能(二级页面)";
 			sourceTree = "<group>";
@@ -877,6 +882,7 @@
 				4CEE0B9F1BE614CF0026B344 /* ZCAboutViewController.xib in Resources */,
 				4CEE0C4C1BE648E00026B344 /* icon_copy@3x.png in Resources */,
 				4CEE0C4D1BE648E00026B344 /* icon_done@2x.png in Resources */,
+				4CB52F721BE79A46009DEEAB /* icon.png in Resources */,
 				4CEE0C561BE648E00026B344 /* icon_make@3x.png in Resources */,
 				4C9B479C1BDE09450030B947 /* Categories.plist in Resources */,
 				4CDBCB8F1BD789B900310898 /* LaunchScreen.storyboard in Resources */,
@@ -889,7 +895,6 @@
 				4CEE0C491BE648E00026B344 /* icon_clean@2x.png in Resources */,
 				4CEE0C521BE648E00026B344 /* icon_light@3x.png in Resources */,
 				4CEE0C601BE648E00026B344 /* InfoViewController.xib in Resources */,
-				4C73D0921BE4B37D00A0CFE2 /* icon.png in Resources */,
 				4CEE0C581BE648E00026B344 /* icon_qrcode@3x.png in Resources */,
 				4CEE0C551BE648E00026B344 /* icon_make@2x.png in Resources */,
 				4CEE0C4B1BE648E00026B344 /* icon_copy@2x.png in Resources */,
@@ -978,6 +983,7 @@
 				4CF8DB3D1BD886D0006853CB /* ZCMainCollectionViewController.m in Sources */,
 				4CAEF17C1BE6534200A2726B /* DateManager.m in Sources */,
 				4CEE0B9E1BE614CF0026B344 /* ZCAboutViewController.m in Sources */,
+				4CECEC141BE8410600CB0363 /* ZCWikiViewController.m in Sources */,
 				4CEE0C5F1BE648E00026B344 /* InfoViewController.m in Sources */,
 				4C4A28F01BE211A3003E9E5E /* ZCCurrencyTableViewController.m in Sources */,
 				4C5863321BE39C4C00E75DC9 /* ZCSearchTableViewController.m in Sources */,
@@ -1157,12 +1163,14 @@
 			baseConfigurationReference = 251DFC58E0597ADDE2A5A462 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "生活百事通/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zcill.lifeTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -1171,12 +1179,14 @@
 			baseConfigurationReference = 50BADCC76D016601BC8F1E83 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "生活百事通/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zcill.lifeTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Release;
 		};

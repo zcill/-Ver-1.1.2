@@ -36,6 +36,14 @@
     return self;
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    
+    [super viewWillAppear:animated];
+    
+    self.navigationController.navigationBarHidden = NO;
+    
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -209,7 +217,7 @@
     RETableViewItem *aboutItem = [RETableViewItem itemWithTitle:@"关于" accessoryType:UITableViewCellAccessoryDisclosureIndicator selectionHandler:^(RETableViewItem *item) {
         
         ZCAboutViewController *about = [[ZCAboutViewController alloc] init];
-        about.title = @"关于";
+        about.hidesBottomBarWhenPushed = YES;
         [self.navigationController pushViewController:about animated:YES];
         
     }];

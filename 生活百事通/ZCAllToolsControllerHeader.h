@@ -18,11 +18,6 @@
 
 // 导入Controllers
 #import "ZCRootViewController.h"
-#import "ZCCitiesTableViewController.h"
-#import "ZCIDCardSearchTableViewController.h"
-#import "ZCPhoneNumberTableViewController.h"
-#import "ZCIPSearchTableViewController.h"
-#import "ZCCurrencyTableViewController.h"
-#import "ZCBusTableViewController.h"
+#import "ZCWikiViewController.h"
 
 #endif /* ZCAllToolsModel_h */

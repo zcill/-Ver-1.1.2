@@ -14,9 +14,169 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="bg_fog" translatesAutoresizingMaskIntoConstraints="NO" id="U6G-98-ObS">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="VNd-XJ-7w9">
+                    <rect key="frame" x="137" y="83" width="100" height="100"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="生活百事通" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uLb-Ji-5Zt">
+                    <rect key="frame" x="35" y="200" width="305" height="48"/>
+                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="23"/>
+                    <color key="textColor" red="0.95215269917101775" green="0.94924714130016929" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="widthClass=compact" misplaced="YES">
+                        <rect key="frame" x="35" y="225" width="305" height="30"/>
+                    </variation>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="一个囊括所有基本工具的生活神器" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s2f-Ik-Qxq">
+                    <rect key="frame" x="35" y="246" width="305" height="35"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.95215269920000001" green="0.94924714129999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="widthClass=compact" misplaced="YES">
+                        <rect key="frame" x="35" y="275" width="305" height="23"/>
+                    </variation>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Ver 1.1.2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i4E-T1-2Pn">
+                    <rect key="frame" x="35" y="282" width="305" height="27"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.95215269920000001" green="0.94924714129999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="widthClass=compact" misplaced="YES">
+                        <rect key="frame" x="35" y="314" width="305" height="23"/>
+                    </variation>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="&gt; 联系信息" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C7z-jF-Ovo">
+                    <rect key="frame" x="35" y="409" width="305" height="55"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <color key="textColor" red="0.95215269920000001" green="0.94924714129999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="widthClass=compact" misplaced="YES">
+                        <rect key="frame" x="35" y="454" width="305" height="37"/>
+                    </variation>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Copyright @ 2015 Zcill Coder" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H5L-ZD-wuY">
+                    <rect key="frame" x="35" y="630" width="305" height="23"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.95215269920000001" green="0.94924714129999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ez-Gf-LjX">
+                    <rect key="frame" x="8" y="23" width="41" height="40"/>
+                    <state key="normal" image="button_write_toolbar_undo"/>
+                    <connections>
+                        <action selector="back:" destination="-1" eventType="touchUpInside" id="3oL-Oq-KMI"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="&gt; Github" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KPd-Mb-F2W">
+                    <rect key="frame" x="35" y="338" width="305" height="54"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <color key="textColor" red="0.95215269920000001" green="0.94924714129999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="widthClass=compact" misplaced="YES">
+                        <rect key="frame" x="35" y="378" width="305" height="38"/>
+                    </variation>
+                </label>
+            </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="H5L-ZD-wuY" firstAttribute="centerX" secondItem="VNd-XJ-7w9" secondAttribute="centerX" id="0pH-gj-8PU"/>
+                <constraint firstItem="uLb-Ji-5Zt" firstAttribute="centerX" secondItem="VNd-XJ-7w9" secondAttribute="centerX" id="3br-Y4-eyY"/>
+                <constraint firstItem="U6G-98-ObS" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="93W-Gn-Go8"/>
+                <constraint firstItem="C7z-jF-Ovo" firstAttribute="top" secondItem="KPd-Mb-F2W" secondAttribute="bottom" constant="35" id="AD4-B3-mzS">
+                    <variation key="widthClass=compact" constant="38"/>
+                </constraint>
+                <constraint firstItem="i4E-T1-2Pn" firstAttribute="top" secondItem="s2f-Ik-Qxq" secondAttribute="bottom" constant="1" id="BUW-qZ-g6a">
+                    <variation key="widthClass=compact" constant="20"/>
+                </constraint>
+                <constraint firstItem="U6G-98-ObS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="C7V-JC-BWP"/>
+                <constraint firstAttribute="trailing" secondItem="U6G-98-ObS" secondAttribute="trailing" id="Dul-Cf-eX8"/>
+                <constraint firstItem="KPd-Mb-F2W" firstAttribute="width" secondItem="s2f-Ik-Qxq" secondAttribute="width" id="Dvz-KX-eKU"/>
+                <constraint firstItem="C7z-jF-Ovo" firstAttribute="centerX" secondItem="VNd-XJ-7w9" secondAttribute="centerX" id="ECt-1n-3Ob"/>
+                <constraint firstItem="uLb-Ji-5Zt" firstAttribute="top" secondItem="VNd-XJ-7w9" secondAttribute="bottom" constant="17" id="LvC-0A-8lF"/>
+                <constraint firstItem="s2f-Ik-Qxq" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="35" id="OzY-oY-7MX"/>
+                <constraint firstItem="VNd-XJ-7w9" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="60" id="XJr-5N-bSQ">
+                    <variation key="widthClass=compact" constant="80"/>
+                </constraint>
+                <constraint firstItem="H5L-ZD-wuY" firstAttribute="width" secondItem="s2f-Ik-Qxq" secondAttribute="width" id="cp6-z9-b1I"/>
+                <constraint firstItem="C7z-jF-Ovo" firstAttribute="width" secondItem="s2f-Ik-Qxq" secondAttribute="width" id="dsE-ly-DJw"/>
+                <constraint firstAttribute="trailing" secondItem="s2f-Ik-Qxq" secondAttribute="trailing" constant="35" id="hy0-NO-DGJ"/>
+                <constraint firstItem="s2f-Ik-Qxq" firstAttribute="top" secondItem="uLb-Ji-5Zt" secondAttribute="bottom" constant="-2" id="jCb-cv-A5P">
+                    <variation key="widthClass=compact" constant="27"/>
+                </constraint>
+                <constraint firstAttribute="bottom" secondItem="H5L-ZD-wuY" secondAttribute="bottom" constant="14" id="mxD-RS-WCn"/>
+                <constraint firstItem="KPd-Mb-F2W" firstAttribute="centerX" secondItem="VNd-XJ-7w9" secondAttribute="centerX" id="nIg-Av-ExG"/>
+                <constraint firstItem="i4E-T1-2Pn" firstAttribute="width" secondItem="s2f-Ik-Qxq" secondAttribute="width" id="oYc-NY-iMw"/>
+                <constraint firstItem="s2f-Ik-Qxq" firstAttribute="centerX" secondItem="VNd-XJ-7w9" secondAttribute="centerX" id="ruO-p6-giu"/>
+                <constraint firstAttribute="bottom" secondItem="U6G-98-ObS" secondAttribute="bottom" id="sr6-MV-57B"/>
+                <constraint firstItem="i4E-T1-2Pn" firstAttribute="centerX" secondItem="VNd-XJ-7w9" secondAttribute="centerX" id="uoZ-MU-bCa"/>
+                <constraint firstItem="KPd-Mb-F2W" firstAttribute="top" secondItem="i4E-T1-2Pn" secondAttribute="bottom" constant="40" id="vba-xi-Zh9">
+                    <variation key="widthClass=compact" constant="41"/>
+                </constraint>
+            </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-            <point key="canvasLocation" x="339.5" y="335.5"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="93W-Gn-Go8"/>
+                    <exclude reference="C7V-JC-BWP"/>
+                    <exclude reference="Dul-Cf-eX8"/>
+                    <exclude reference="sr6-MV-57B"/>
+                    <exclude reference="XJr-5N-bSQ"/>
+                    <exclude reference="3br-Y4-eyY"/>
+                    <exclude reference="LvC-0A-8lF"/>
+                    <exclude reference="OzY-oY-7MX"/>
+                    <exclude reference="hy0-NO-DGJ"/>
+                    <exclude reference="jCb-cv-A5P"/>
+                    <exclude reference="ruO-p6-giu"/>
+                    <exclude reference="BUW-qZ-g6a"/>
+                    <exclude reference="oYc-NY-iMw"/>
+                    <exclude reference="uoZ-MU-bCa"/>
+                    <exclude reference="Dvz-KX-eKU"/>
+                    <exclude reference="nIg-Av-ExG"/>
+                    <exclude reference="vba-xi-Zh9"/>
+                    <exclude reference="AD4-B3-mzS"/>
+                    <exclude reference="ECt-1n-3Ob"/>
+                    <exclude reference="dsE-ly-DJw"/>
+                    <exclude reference="0pH-gj-8PU"/>
+                    <exclude reference="cp6-z9-b1I"/>
+                    <exclude reference="mxD-RS-WCn"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="constraints">
+                    <include reference="93W-Gn-Go8"/>
+                    <include reference="C7V-JC-BWP"/>
+                    <include reference="Dul-Cf-eX8"/>
+                    <include reference="sr6-MV-57B"/>
+                    <include reference="XJr-5N-bSQ"/>
+                    <include reference="3br-Y4-eyY"/>
+                    <include reference="LvC-0A-8lF"/>
+                    <include reference="OzY-oY-7MX"/>
+                    <include reference="hy0-NO-DGJ"/>
+                    <include reference="jCb-cv-A5P"/>
+                    <include reference="ruO-p6-giu"/>
+                    <include reference="BUW-qZ-g6a"/>
+                    <include reference="oYc-NY-iMw"/>
+                    <include reference="uoZ-MU-bCa"/>
+                    <include reference="Dvz-KX-eKU"/>
+                    <include reference="nIg-Av-ExG"/>
+                    <include reference="vba-xi-Zh9"/>
+                    <include reference="AD4-B3-mzS"/>
+                    <include reference="ECt-1n-3Ob"/>
+                    <include reference="dsE-ly-DJw"/>
+                    <include reference="0pH-gj-8PU"/>
+                    <include reference="cp6-z9-b1I"/>
+                    <include reference="mxD-RS-WCn"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="305.5" y="238.5"/>
         </view>
     </objects>
+    <resources>
+        <image name="bg_fog" width="640" height="1136"/>
+        <image name="button_write_toolbar_undo" width="25" height="25"/>
+        <image name="icon.png" width="120" height="120"/>
+    </resources>
 </document>
