@@ -158,6 +158,68 @@
     
 }
 
++ (void)getTVDataWithTVID:(NSString *)tvid date:(NSString *)date succuss:(void (^)(id JSON))successBlock failure:(void (^)(NSError *error))failureBlock {
+    
+    // 设置请求参数
+    NSMutableDictionary *params = [NSMutableDictionary dictionary];
+    params[@"tvid"] = tvid;
+    params[@"date"] = date;
+    params[@"appkey"] = searchAppKey;
+    
+    // 请求
+    [ZCHttpRequestTool getWithURL:TVURL params:params success:^(id JSON) {
+        if (successBlock) {
+            successBlock(JSON);
+        }
+    } failure:^(NSError *error) {
+        if (failureBlock) {
+            failureBlock(error);
+        }
+    }];
+    
+}
+
+// 根据区号查城市
++ (void)getCityDataWithAreacode:(NSString *)areacode succuss:(void (^)(id JSON))successBlock failure:(void (^)(NSError *error))failureBlock {
+    
+    // 设置请求参数
+    NSMutableDictionary *params = [NSMutableDictionary dictionary];
+    params[@"areacode"] = areacode;
+    params[@"appkey"] = searchAppKey;
+    
+    // 请求
+    [ZCHttpRequestTool getWithURL:AreaCodeURL params:params success:^(id JSON) {
+        if (successBlock) {
+            successBlock(JSON);
+        }
+    } failure:^(NSError *error) {
+        if (failureBlock) {
+            failureBlock(error);
+        }
+    }];
+    
+}
+
+// 根据城市查区号
++ (void)getAreacodeWithCity:(NSString *)city succuss:(void (^)(id JSON))successBlock failure:(void (^)(NSError *error))failureBlock {
+    
+    // 设置请求参数
+    NSMutableDictionary *params = [NSMutableDictionary dictionary];
+    params[@"city"] = city;
+    params[@"appkey"] = searchAppKey;
+    
+    // 请求
+    [ZCHttpRequestTool getWithURL:CityToAreacodeURL params:params success:^(id JSON) {
+        if (successBlock) {
+            successBlock(JSON);
+        }
+    } failure:^(NSError *error) {
+        if (failureBlock) {
+            failureBlock(error);
+        }
+    }];
+    
+}
 
 
 @end

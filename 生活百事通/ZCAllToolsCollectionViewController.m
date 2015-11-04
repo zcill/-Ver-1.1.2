@@ -62,8 +62,8 @@
     
     // 添加item
     ZCItemModel *expressItem = [ZCItemModel itemWithTitle:@"快递查询" icon:@"express" destVcClass:[ZCExpressTableViewController class]];
-    ZCItemModel *TVItem = [ZCItemModel itemWithTitle:@"电视节目" icon:@"tv" destVcClass:[ZCRootViewController class]];
-    ZCItemModel *areacodeItem = [ZCItemModel itemWithTitle:@"区号查询" icon:@"areacode" destVcClass:[ZCRootViewController class]];
+    ZCItemModel *TVItem = [ZCItemModel itemWithTitle:@"电视节目" icon:@"tv" destVcClass:[ZCTVTableViewController class]];
+    ZCItemModel *areacodeItem = [ZCItemModel itemWithTitle:@"区号查询" icon:@"areacode" destVcClass:[ZCAreaCodeTableViewController class]];
     ZCItemModel *zipcodeItem = [ZCItemModel itemWithTitle:@"邮编查询" icon:@"zipcode" destVcClass:[ZCRootViewController class]];
     
     [section.items addObjectsFromArray:@[expressItem, TVItem, areacodeItem, zipcodeItem]];

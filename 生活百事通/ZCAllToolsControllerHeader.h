@@ -21,5 +21,7 @@
 #import "ZCWikiViewController.h"
 #import "ZCNewsViewController.h"
 #import "ZCExpressTableViewController.h"
+#import "ZCTVTableViewController.h"
+#import "ZCAreaCodeTableViewController.h"
 
 #endif /* ZCAllToolsModel_h */

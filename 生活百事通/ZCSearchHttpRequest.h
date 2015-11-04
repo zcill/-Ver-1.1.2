@@ -47,6 +47,19 @@
  */
 + (void)getExpressDataWithCompanyID:(NSString *)companyID number:(NSString *)number succuss:(void (^)(id JSON))successBlock failure:(void (^)(NSError *error))failureBlock;
 
+/*
+ 获取电视节目数据
+ */
++ (void)getTVDataWithTVID:(NSString *)tvid date:(NSString *)date succuss:(void (^)(id JSON))successBlock failure:(void (^)(NSError *error))failureBlock;
 
+/**
+ 根据区号查询城市
+ */
++ (void)getCityDataWithAreacode:(NSString *)areacode succuss:(void (^)(id JSON))successBlock failure:(void (^)(NSError *error))failureBlock;
+
+/**
+ 根据城市查询区号
+ */
++ (void)getAreacodeWithCity:(NSString *)city succuss:(void (^)(id JSON))successBlock failure:(void (^)(NSError *error))failureBlock;
 
 @end

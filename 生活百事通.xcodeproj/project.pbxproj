@@ -10,6 +10,7 @@
 		3E05AC1E350C813C53788DBF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B4CC5733144DC4C456482F5 /* libPods.a */; };
 		4C14E9F21BE0C25C00B2C4CB /* ZCIDCardSearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C14E9F11BE0C25C00B2C4CB /* ZCIDCardSearchTableViewController.m */; };
 		4C14EAE41BE0F1F300B2C4CB /* ZCSubtitleItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C14EAE31BE0F1F300B2C4CB /* ZCSubtitleItem.m */; };
+		4C17CBFC1BEA425100CB7269 /* ZCAreaCodeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C17CBFB1BEA425100CB7269 /* ZCAreaCodeTableViewController.m */; };
 		4C3631871BDA566D0010C0CC /* ZCHttpRequestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3631861BDA566D0010C0CC /* ZCHttpRequestTool.m */; };
 		4C36318A1BDA5ECC0010C0CC /* ZCSearchHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3631891BDA5ECC0010C0CC /* ZCSearchHttpRequest.m */; };
 		4C4A28F01BE211A3003E9E5E /* ZCCurrencyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A28EF1BE211A3003E9E5E /* ZCCurrencyTableViewController.m */; };
@@ -42,6 +43,8 @@
 		4CEC81C71BE492BA000AFF83 /* ZCAllToolsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEC81C61BE492BA000AFF83 /* ZCAllToolsCollectionViewController.m */; };
 		4CECD5351BE9DFC00061CA72 /* ZCExpressTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CECD5341BE9DFC00061CA72 /* ZCExpressTableViewController.m */; };
 		4CECD5371BE9E0EB0061CA72 /* express.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CECD5361BE9E0EB0061CA72 /* express.plist */; };
+		4CECD53C1BE9F9870061CA72 /* TV_Channel.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CECD53B1BE9F9870061CA72 /* TV_Channel.plist */; };
+		4CECD53F1BE9FAE80061CA72 /* ZCTVTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CECD53E1BE9FAE80061CA72 /* ZCTVTableViewController.m */; };
 		4CECEC141BE8410600CB0363 /* ZCWikiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CECEC131BE8410600CB0363 /* ZCWikiViewController.m */; };
 		4CEE0B9E1BE614CF0026B344 /* ZCAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEE0B9A1BE614CF0026B344 /* ZCAboutViewController.m */; };
 		4CEE0B9F1BE614CF0026B344 /* ZCAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CEE0B9B1BE614CF0026B344 /* ZCAboutViewController.xib */; };
@@ -120,6 +123,8 @@
 		4C14E9F11BE0C25C00B2C4CB /* ZCIDCardSearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCIDCardSearchTableViewController.m; sourceTree = "<group>"; };
 		4C14EAE21BE0F1F300B2C4CB /* ZCSubtitleItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCSubtitleItem.h; sourceTree = "<group>"; };
 		4C14EAE31BE0F1F300B2C4CB /* ZCSubtitleItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCSubtitleItem.m; sourceTree = "<group>"; };
+		4C17CBFA1BEA425100CB7269 /* ZCAreaCodeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCAreaCodeTableViewController.h; sourceTree = "<group>"; };
+		4C17CBFB1BEA425100CB7269 /* ZCAreaCodeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCAreaCodeTableViewController.m; sourceTree = "<group>"; };
 		4C3631851BDA566D0010C0CC /* ZCHttpRequestTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZCHttpRequestTool.h; path = "生活百事通/ZCHttpRequestTool.h"; sourceTree = "<group>"; };
 		4C3631861BDA566D0010C0CC /* ZCHttpRequestTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZCHttpRequestTool.m; path = "生活百事通/ZCHttpRequestTool.m"; sourceTree = "<group>"; };
 		4C3631881BDA5ECC0010C0CC /* ZCSearchHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCSearchHttpRequest.h; sourceTree = "<group>"; };
@@ -179,6 +184,9 @@
 		4CECD5331BE9DFC00061CA72 /* ZCExpressTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCExpressTableViewController.h; sourceTree = "<group>"; };
 		4CECD5341BE9DFC00061CA72 /* ZCExpressTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCExpressTableViewController.m; sourceTree = "<group>"; };
 		4CECD5361BE9E0EB0061CA72 /* express.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = express.plist; sourceTree = "<group>"; };
+		4CECD53B1BE9F9870061CA72 /* TV_Channel.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TV_Channel.plist; sourceTree = "<group>"; };
+		4CECD53D1BE9FAE80061CA72 /* ZCTVTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCTVTableViewController.h; sourceTree = "<group>"; };
+		4CECD53E1BE9FAE80061CA72 /* ZCTVTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCTVTableViewController.m; sourceTree = "<group>"; };
 		4CECEC121BE8410600CB0363 /* ZCWikiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCWikiViewController.h; sourceTree = "<group>"; };
 		4CECEC131BE8410600CB0363 /* ZCWikiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCWikiViewController.m; sourceTree = "<group>"; };
 		4CEE0B991BE614CF0026B344 /* ZCAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCAboutViewController.h; sourceTree = "<group>"; };
@@ -510,6 +518,7 @@
 		4CDBCB7F1BD789B900310898 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4CECD53B1BE9F9870061CA72 /* TV_Channel.plist */,
 				4C9B47961BDE09450030B947 /* Categories.plist */,
 				4C9B47971BDE09450030B947 /* Categoriesaaa.plist */,
 				4C9B47981BDE09450030B947 /* Cities.plist */,
@@ -579,6 +588,10 @@
 			children = (
 				4CECD5331BE9DFC00061CA72 /* ZCExpressTableViewController.h */,
 				4CECD5341BE9DFC00061CA72 /* ZCExpressTableViewController.m */,
+				4CECD53D1BE9FAE80061CA72 /* ZCTVTableViewController.h */,
+				4CECD53E1BE9FAE80061CA72 /* ZCTVTableViewController.m */,
+				4C17CBFA1BEA425100CB7269 /* ZCAreaCodeTableViewController.h */,
+				4C17CBFB1BEA425100CB7269 /* ZCAreaCodeTableViewController.m */,
 			);
 			name = "生活常用";
 			sourceTree = "<group>";
@@ -936,6 +949,7 @@
 				4C9B479D1BDE09450030B947 /* Categoriesaaa.plist in Resources */,
 				4CEE0C571BE648E00026B344 /* icon_qrcode@2x.png in Resources */,
 				4C4A28F61BE21B89003E9E5E /* CurrencyCode.plist in Resources */,
+				4CECD53C1BE9F9870061CA72 /* TV_Channel.plist in Resources */,
 				4CF8DB4B1BD88F1B006853CB /* ZCItemCell.xib in Resources */,
 				4C9B47A11BDE09450030B947 /* ProvincesAndCities.plist in Resources */,
 				4CEE0C541BE648E00026B344 /* icon_light_normal@3x.png in Resources */,
@@ -1018,6 +1032,7 @@
 				4CEE0C5F1BE648E00026B344 /* InfoViewController.m in Sources */,
 				4C4A28F01BE211A3003E9E5E /* ZCCurrencyTableViewController.m in Sources */,
 				4C5863321BE39C4C00E75DC9 /* ZCSearchTableViewController.m in Sources */,
+				4C17CBFC1BEA425100CB7269 /* ZCAreaCodeTableViewController.m in Sources */,
 				4CEE0C081BE63D470026B344 /* ZCTabBar.m in Sources */,
 				4CF8DB601BD8D130006853CB /* CSStickyHeaderFlowLayoutAttributes.m in Sources */,
 				4C3631871BDA566D0010C0CC /* ZCHttpRequestTool.m in Sources */,
@@ -1031,6 +1046,7 @@
 				4CEE0C5B1BE648E00026B344 /* Cell.m in Sources */,
 				4CEE0C5A1BE648E00026B344 /* BaseViewController.m in Sources */,
 				4CDBCB811BD789B900310898 /* main.m in Sources */,
+				4CECD53F1BE9FAE80061CA72 /* ZCTVTableViewController.m in Sources */,
 				4CEE0C591BE648E00026B344 /* Scanner.m in Sources */,
 				4C36318A1BDA5ECC0010C0CC /* ZCSearchHttpRequest.m in Sources */,
 				4CF8DB4E1BD8909C006853CB /* ZCItemModel.m in Sources */,

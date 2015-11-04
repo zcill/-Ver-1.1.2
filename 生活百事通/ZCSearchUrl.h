@@ -32,6 +32,15 @@
 // 运单号查询接口
 #define ExpressURL @"http://api.jisuapi.com/express/query?"
 
+// TV节目查询接口
+#define TVURL @"http://api.jisuapi.com/tv/query?"
+
+// 区号查城市接口
+#define AreaCodeURL @"http://api.jisuapi.com/areacode/query?"
+
+// 城市查区号接口
+#define CityToAreacodeURL @"http://api.jisuapi.com/areacode/city2code?"
+
 #pragma mark - 查询接口使用的AppKey
 
 // 天气查询AppKey
