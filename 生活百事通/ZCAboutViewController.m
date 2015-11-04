@@ -9,6 +9,8 @@
 #import "ZCAboutViewController.h"
 
 @interface ZCAboutViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *githubLabel;
+@property (weak, nonatomic) IBOutlet UILabel *callMeLabel;
 
 @end
 
@@ -24,6 +26,24 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
+    
+}
+
+- (void)openGithub {
+    
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tap:)];
+    
+    [self.githubLabel addGestureRecognizer:tap];
+    
+}
+
+- (void)tap:(UITapGestureRecognizer *)tap {
+    
+    NSURL *url = [NSURL URLWithString:@"https://github.com/zcill"];
+    
+    [[UIApplication sharedApplication] openURL:url];
     
 }
 

@@ -168,7 +168,7 @@ static NSString * const reuseIdentifier = @"ZCItemCell";
     section.headerTitle = @"金融相关";
     
     ZCItemModel *currencyItem = [ZCItemModel itemWithTitle:@"货币汇率" icon:@"a7" destVcClass:[ZCCurrencyTableViewController class]];
-    ZCItemModel *revenueItem = [ZCItemModel itemWithTitle:@"税收计算" icon:@"s7" destVcClass:[ZCRootViewController class]];
+    ZCItemModel *revenueItem = [ZCItemModel itemWithTitle:@"税收计算" icon:@"s7" destVcClass:[ZCRevenueTableViewController class]];
     
     [section.items addObjectsFromArray:@[currencyItem, revenueItem]];
     [self.sections addObject:section];

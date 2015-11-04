@@ -96,7 +96,7 @@
     ZCItemModel *wikiItem = [ZCItemModel itemWithTitle:@"百度百科" icon:@"wiki" destVcClass:[ZCWikiViewController class]];
     ZCItemModel *translateItem = [ZCItemModel itemWithTitle:@"翻译" icon:@"translate" destVcClass:[ZCRootViewController class]];
     ZCItemModel *historyItem = [ZCItemModel itemWithTitle:@"历史上的今天" icon:@"todayhistory" destVcClass:[ZCRootViewController class]];
-    ZCItemModel *newsItem = [ZCItemModel itemWithTitle:@"新闻" icon:@"news" destVcClass:[ZCRootViewController class]];
+    ZCItemModel *newsItem = [ZCItemModel itemWithTitle:@"新闻" icon:@"news" destVcClass:[ZCNewsViewController class]];
     
     [section.items addObjectsFromArray:@[wikiItem, translateItem, historyItem, newsItem]];
     [self.sections addObject:section];

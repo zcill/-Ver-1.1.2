@@ -7,6 +7,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZCAboutViewController">
             <connections>
+                <outlet property="callMeLabel" destination="C7z-jF-Ovo" id="HYh-fy-vPe"/>
+                <outlet property="githubLabel" destination="KPd-Mb-F2W" id="eSL-MB-oQ5"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -171,7 +173,7 @@
                     <include reference="mxD-RS-WCn"/>
                 </mask>
             </variation>
-            <point key="canvasLocation" x="305.5" y="238.5"/>
+            <point key="canvasLocation" x="298.5" y="191.5"/>
         </view>
     </objects>
     <resources>

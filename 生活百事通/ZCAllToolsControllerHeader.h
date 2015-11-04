@@ -19,5 +19,6 @@
 // 导入Controllers
 #import "ZCRootViewController.h"
 #import "ZCWikiViewController.h"
+#import "ZCNewsViewController.h"
 
 #endif /* ZCAllToolsModel_h */
