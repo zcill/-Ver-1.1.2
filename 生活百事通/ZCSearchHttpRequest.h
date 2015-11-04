@@ -42,7 +42,10 @@
  */
 + (void)getBusLineDataWithCityID:(NSString *)cityID transitno:(NSString *)transitno succuss:(void (^)(id JSON))successBlock failure:(void (^)(NSError *error))failureBlock;
 
-
+/*
+ 获取快递运单数据
+ */
++ (void)getExpressDataWithCompanyID:(NSString *)companyID number:(NSString *)number succuss:(void (^)(id JSON))successBlock failure:(void (^)(NSError *error))failureBlock;
 
 
 

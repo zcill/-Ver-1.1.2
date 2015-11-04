@@ -33,7 +33,7 @@
     self.webView.navigationDelegate = self;
     [self.view addSubview:self.webView];
     
-    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://3g.163.com"]]];
+    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://news.163.com"]]];
     
 }
 

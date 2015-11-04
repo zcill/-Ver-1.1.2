@@ -9,8 +9,7 @@
 #import "ZCAboutViewController.h"
 
 @interface ZCAboutViewController ()
-@property (weak, nonatomic) IBOutlet UILabel *githubLabel;
-@property (weak, nonatomic) IBOutlet UILabel *callMeLabel;
+
 
 @end
 
@@ -20,6 +19,7 @@
     
     [super viewWillAppear:animated];
     
+    // 隐藏导航栏
     self.navigationController.navigationBarHidden = YES;
     
 }
@@ -27,22 +27,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+}
+
+// 联系我们按钮
+- (IBAction)callMe:(id)sender {
+    
     
     
 }
 
-- (void)openGithub {
+// 关注作者按钮
+- (IBAction)gotoGithub:(id)sender {
     
-    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tap:)];
-    
-    [self.githubLabel addGestureRecognizer:tap];
-    
-}
-
-- (void)tap:(UITapGestureRecognizer *)tap {
-    
+    // 使用safari打开github
     NSURL *url = [NSURL URLWithString:@"https://github.com/zcill"];
-    
     [[UIApplication sharedApplication] openURL:url];
     
 }
