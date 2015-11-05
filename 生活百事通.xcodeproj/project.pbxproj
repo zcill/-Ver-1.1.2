@@ -27,6 +27,17 @@
 		4CAEF17C1BE6534200A2726B /* DateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEF1771BE6534200A2726B /* DateManager.m */; };
 		4CAEF17D1BE6534200A2726B /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEF1791BE6534200A2726B /* DBManager.m */; };
 		4CAEF17E1BE6534200A2726B /* DBManagerQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEF17B1BE6534200A2726B /* DBManagerQueue.m */; };
+		4CB0F96F1BEAE3C000C40D16 /* ZCZipcodeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB0F96E1BEAE3C000C40D16 /* ZCZipcodeTableViewController.m */; };
+		4CB0F9751BEAEC5D00C40D16 /* ZCTrainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB0F9741BEAEC5D00C40D16 /* ZCTrainTableViewController.m */; };
+		4CB0F9791BEB064B00C40D16 /* ZCMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB0F9781BEB064B00C40D16 /* ZCMapViewController.m */; };
+		4CB0F9941BEB32F800C40D16 /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4CB0F9921BEB32F800C40D16 /* AMap.bundle */; };
+		4CB0F9951BEB32F800C40D16 /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB0F9931BEB32F800C40D16 /* MAMapKit.framework */; };
+		4CB0F9961BEB332300C40D16 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB0F9881BEB087D00C40D16 /* libstdc++.6.0.9.tbd */; };
+		4CB0F9971BEB332900C40D16 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB0F9841BEB086500C40D16 /* CoreLocation.framework */; };
+		4CB0F9981BEB332F00C40D16 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB0F9861BEB087300C40D16 /* OpenGLES.framework */; };
+		4CB0F9991BEB333700C40D16 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB0F9821BEB085B00C40D16 /* SystemConfiguration.framework */; };
+		4CB0F99A1BEB333B00C40D16 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB0F9801BEB084D00C40D16 /* Security.framework */; };
+		4CB0F99B1BEB334100C40D16 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB0F97E1BEB084500C40D16 /* CoreTelephony.framework */; };
 		4CB141651BDA24E40060F5A5 /* ZCWeatherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB141641BDA24E40060F5A5 /* ZCWeatherModel.m */; };
 		4CB52F721BE79A46009DEEAB /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB52F711BE79A46009DEEAB /* icon.png */; };
 		4CD86B6F1BE8D00B003BBA80 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD86B6D1BE8CEFE003BBA80 /* WebKit.framework */; };
@@ -152,6 +163,20 @@
 		4CAEF1791BE6534200A2726B /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
 		4CAEF17A1BE6534200A2726B /* DBManagerQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManagerQueue.h; sourceTree = "<group>"; };
 		4CAEF17B1BE6534200A2726B /* DBManagerQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManagerQueue.m; sourceTree = "<group>"; };
+		4CB0F96D1BEAE3C000C40D16 /* ZCZipcodeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCZipcodeTableViewController.h; sourceTree = "<group>"; };
+		4CB0F96E1BEAE3C000C40D16 /* ZCZipcodeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCZipcodeTableViewController.m; sourceTree = "<group>"; };
+		4CB0F9731BEAEC5D00C40D16 /* ZCTrainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCTrainTableViewController.h; sourceTree = "<group>"; };
+		4CB0F9741BEAEC5D00C40D16 /* ZCTrainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCTrainTableViewController.m; sourceTree = "<group>"; };
+		4CB0F9771BEB064B00C40D16 /* ZCMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCMapViewController.h; sourceTree = "<group>"; };
+		4CB0F9781BEB064B00C40D16 /* ZCMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCMapViewController.m; sourceTree = "<group>"; };
+		4CB0F97E1BEB084500C40D16 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		4CB0F9801BEB084D00C40D16 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4CB0F9821BEB085B00C40D16 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4CB0F9841BEB086500C40D16 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4CB0F9861BEB087300C40D16 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		4CB0F9881BEB087D00C40D16 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		4CB0F9921BEB32F800C40D16 /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMap.bundle; sourceTree = "<group>"; };
+		4CB0F9931BEB32F800C40D16 /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
 		4CB141631BDA24E40060F5A5 /* ZCWeatherModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCWeatherModel.h; sourceTree = "<group>"; };
 		4CB141641BDA24E40060F5A5 /* ZCWeatherModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCWeatherModel.m; sourceTree = "<group>"; };
 		4CB52F711BE79A46009DEEAB /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
@@ -274,10 +299,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CB0F99B1BEB334100C40D16 /* CoreTelephony.framework in Frameworks */,
+				4CB0F99A1BEB333B00C40D16 /* Security.framework in Frameworks */,
+				4CB0F9991BEB333700C40D16 /* SystemConfiguration.framework in Frameworks */,
+				4CB0F9981BEB332F00C40D16 /* OpenGLES.framework in Frameworks */,
+				4CB0F9971BEB332900C40D16 /* CoreLocation.framework in Frameworks */,
+				4CB0F9961BEB332300C40D16 /* libstdc++.6.0.9.tbd in Frameworks */,
 				4CD86B6F1BE8D00B003BBA80 /* WebKit.framework in Frameworks */,
 				4CEE0C6A1BE64A3E0026B344 /* libz.tbd in Frameworks */,
 				4CEE0C021BE61AFD0026B344 /* libsqlite3.tbd in Frameworks */,
 				3E05AC1E350C813C53788DBF /* libPods.a in Frameworks */,
+				4CB0F9951BEB32F800C40D16 /* MAMapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +333,12 @@
 		2BBC348098ABD0B4115D1E38 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4CB0F9881BEB087D00C40D16 /* libstdc++.6.0.9.tbd */,
+				4CB0F9861BEB087300C40D16 /* OpenGLES.framework */,
+				4CB0F9841BEB086500C40D16 /* CoreLocation.framework */,
+				4CB0F9821BEB085B00C40D16 /* SystemConfiguration.framework */,
+				4CB0F9801BEB084D00C40D16 /* Security.framework */,
+				4CB0F97E1BEB084500C40D16 /* CoreTelephony.framework */,
 				4CD86B6D1BE8CEFE003BBA80 /* WebKit.framework */,
 				4CEE0C691BE64A3E0026B344 /* libz.tbd */,
 				4CEE0C011BE61AFD0026B344 /* libsqlite3.tbd */,
@@ -381,6 +419,8 @@
 		4C6B33C11BD7964500475586 /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				4CB0F9921BEB32F800C40D16 /* AMap.bundle */,
+				4CB0F9931BEB32F800C40D16 /* MAMapKit.framework */,
 				4CF8DB5A1BD8D130006853CB /* CSStickyHeaderFlowLayout */,
 				4C14EAE11BE0F1C800B2C4CB /* ZC */,
 			);
@@ -454,6 +494,42 @@
 			path = Manager;
 			sourceTree = "<group>";
 		};
+		4CB0F9701BEAEBC400C40D16 /* 出行必备 */ = {
+			isa = PBXGroup;
+			children = (
+				4CB0F9731BEAEC5D00C40D16 /* ZCTrainTableViewController.h */,
+				4CB0F9741BEAEC5D00C40D16 /* ZCTrainTableViewController.m */,
+			);
+			name = "出行必备";
+			sourceTree = "<group>";
+		};
+		4CB0F9711BEAEBDA00C40D16 /* 知识技能 */ = {
+			isa = PBXGroup;
+			children = (
+				4CECEC121BE8410600CB0363 /* ZCWikiViewController.h */,
+				4CECEC131BE8410600CB0363 /* ZCWikiViewController.m */,
+				4CD86B701BE8DDD2003BBA80 /* ZCNewsViewController.h */,
+				4CD86B711BE8DDD2003BBA80 /* ZCNewsViewController.m */,
+			);
+			name = "知识技能";
+			sourceTree = "<group>";
+		};
+		4CB0F9721BEAEBDF00C40D16 /* 投资理财 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "投资理财";
+			sourceTree = "<group>";
+		};
+		4CB0F9761BEAFFD900C40D16 /* Map(地图) */ = {
+			isa = PBXGroup;
+			children = (
+				4CB0F9771BEB064B00C40D16 /* ZCMapViewController.h */,
+				4CB0F9781BEB064B00C40D16 /* ZCMapViewController.m */,
+			);
+			name = "Map(地图)";
+			sourceTree = "<group>";
+		};
 		4CBB8C121BE4DD97002732E5 /* 主页面 */ = {
 			isa = PBXGroup;
 			children = (
@@ -468,10 +544,9 @@
 			isa = PBXGroup;
 			children = (
 				4CECD5321BE9DFAF0061CA72 /* 生活常用 */,
-				4CECEC121BE8410600CB0363 /* ZCWikiViewController.h */,
-				4CECEC131BE8410600CB0363 /* ZCWikiViewController.m */,
-				4CD86B701BE8DDD2003BBA80 /* ZCNewsViewController.h */,
-				4CD86B711BE8DDD2003BBA80 /* ZCNewsViewController.m */,
+				4CB0F9701BEAEBC400C40D16 /* 出行必备 */,
+				4CB0F9711BEAEBDA00C40D16 /* 知识技能 */,
+				4CB0F9721BEAEBDF00C40D16 /* 投资理财 */,
 			);
 			name = "各类功能(二级页面)";
 			sourceTree = "<group>";
@@ -505,6 +580,7 @@
 			children = (
 				4C3631841BDA55B00010C0CC /* Public(公用) */,
 				4CF8DB371BD87050006853CB /* Main(生活) */,
+				4CB0F9761BEAFFD900C40D16 /* Map(地图) */,
 				4CEC81C11BE490AF000AFF83 /* AllTools(工具) */,
 				4CEE0B981BE614AF0026B344 /* User(我的) */,
 				4C6B33C61BD7968700475586 /* Root */,
@@ -592,6 +668,8 @@
 				4CECD53E1BE9FAE80061CA72 /* ZCTVTableViewController.m */,
 				4C17CBFA1BEA425100CB7269 /* ZCAreaCodeTableViewController.h */,
 				4C17CBFB1BEA425100CB7269 /* ZCAreaCodeTableViewController.m */,
+				4CB0F96D1BEAE3C000C40D16 /* ZCZipcodeTableViewController.h */,
+				4CB0F96E1BEAE3C000C40D16 /* ZCZipcodeTableViewController.m */,
 			);
 			name = "生活常用";
 			sourceTree = "<group>";
@@ -877,6 +955,11 @@
 					4CDBCB7B1BD789B900310898 = {
 						CreatedOnToolsVersion = 7.0;
 						DevelopmentTeam = 6PRCTVW4F9;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					4CDBCB941BD789B900310898 = {
 						CreatedOnToolsVersion = 7.0;
@@ -921,6 +1004,7 @@
 				4C9B47A01BDE09450030B947 /* Orders.plist in Resources */,
 				4CEE0C4A1BE648E00026B344 /* icon_clean@3x.png in Resources */,
 				4CF8DB591BD8C81A006853CB /* ZCHeaderViewCell.xib in Resources */,
+				4CB0F9941BEB32F800C40D16 /* AMap.bundle in Resources */,
 				4CEE0C5E1BE648E00026B344 /* HistoryViewController.xib in Resources */,
 				4CEE0B9F1BE614CF0026B344 /* ZCAboutViewController.xib in Resources */,
 				4CEE0C4C1BE648E00026B344 /* icon_copy@3x.png in Resources */,
@@ -1028,6 +1112,7 @@
 				4CF8DB3D1BD886D0006853CB /* ZCMainCollectionViewController.m in Sources */,
 				4CAEF17C1BE6534200A2726B /* DateManager.m in Sources */,
 				4CEE0B9E1BE614CF0026B344 /* ZCAboutViewController.m in Sources */,
+				4CB0F9751BEAEC5D00C40D16 /* ZCTrainTableViewController.m in Sources */,
 				4CECEC141BE8410600CB0363 /* ZCWikiViewController.m in Sources */,
 				4CEE0C5F1BE648E00026B344 /* InfoViewController.m in Sources */,
 				4C4A28F01BE211A3003E9E5E /* ZCCurrencyTableViewController.m in Sources */,
@@ -1052,6 +1137,8 @@
 				4CF8DB4E1BD8909C006853CB /* ZCItemModel.m in Sources */,
 				4CF8DB511BD8B396006853CB /* ZCSectionModel.m in Sources */,
 				4CEFB4CA1BE1AA67000CD045 /* ZCPhoneNumberTableViewController.m in Sources */,
+				4CB0F9791BEB064B00C40D16 /* ZCMapViewController.m in Sources */,
+				4CB0F96F1BEAE3C000C40D16 /* ZCZipcodeTableViewController.m in Sources */,
 				4CF8DB5F1BD8D130006853CB /* CSStickyHeaderFlowLayout.m in Sources */,
 				4CE685081BE38A3400D0647C /* ZCBusTableViewController.m in Sources */,
 				4CB141651BDA24E40060F5A5 /* ZCWeatherModel.m in Sources */,
@@ -1213,13 +1300,20 @@
 			baseConfigurationReference = 251DFC58E0597ADDE2A5A462 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "生活百事通/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zcill.lifeTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 armv7s i386 arm64";
 			};
@@ -1230,13 +1324,20 @@
 			baseConfigurationReference = 50BADCC76D016601BC8F1E83 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "生活百事通/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zcill.lifeTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 armv7s i386 arm64";
 			};

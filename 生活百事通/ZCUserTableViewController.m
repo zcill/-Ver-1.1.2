@@ -294,7 +294,7 @@
     
     switch (result) {
         case MFMailComposeResultCancelled:
-            msg = @"邮件发送取消";
+//            msg = @"邮件发送取消";
             break;
         case MFMailComposeResultSaved:
             msg = @"邮件保存为草稿";

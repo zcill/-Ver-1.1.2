@@ -13,6 +13,7 @@
 #import "ZCRootViewController.h"
 #import "ZCAllToolsCollectionViewController.h"
 #import "ZCUserTableViewController.h"
+#import "ZCMapViewController.h"
 
 @interface ZCTabBar ()
 
@@ -66,9 +67,9 @@
     self.main = main;
     
     
-    ZCRootViewController *navi2 = [[ZCRootViewController alloc] init];
+    ZCMapViewController *navi2 = [[ZCMapViewController alloc] init];
     navi2.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"" image:[UIImage imageNamed:@"goodsNormal"] selectedImage:[UIImage imageNamed:@"goodsSelected"]];
-    [self addChildViewController:navi2 title:@"团购"];
+    [self addChildViewController:navi2 title:@"地图"];
     
     
     UICollectionViewFlowLayout *toolsLayout = [[UICollectionViewFlowLayout alloc] init];

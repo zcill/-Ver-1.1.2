@@ -62,4 +62,9 @@
  */
 + (void)getAreacodeWithCity:(NSString *)city succuss:(void (^)(id JSON))successBlock failure:(void (^)(NSError *error))failureBlock;
 
+/**
+ 根据邮编查地址
+ */
++ (void)getAddressWithZipcode:(NSString *)zipcode succuss:(void (^)(id JSON))successBlock failure:(void (^)(NSError *error))failureBlock;
+
 @end

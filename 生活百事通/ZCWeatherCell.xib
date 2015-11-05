@@ -68,15 +68,6 @@
                             <rect key="frame" x="235" y="5" width="100" height="100"/>
                         </variation>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="晴天" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9O7-fv-ouw">
-                        <rect key="frame" x="233" y="124" width="100" height="33"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <nil key="highlightedColor"/>
-                        <variation key="widthClass=compact" fixedFrame="YES">
-                            <rect key="frame" x="210" y="123" width="144" height="33"/>
-                        </variation>
-                    </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="实时:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pas-mr-yOG">
                         <rect key="frame" x="15" y="50" width="99" height="28"/>
                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
@@ -90,6 +81,15 @@
                         <nil key="highlightedColor"/>
                         <variation key="widthClass=compact" fixedFrame="YES">
                             <rect key="frame" x="17" y="123" width="171" height="33"/>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="晴天" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9O7-fv-ouw">
+                        <rect key="frame" x="218" y="129" width="133" height="33"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="widthClass=compact" fixedFrame="YES">
+                            <rect key="frame" x="210" y="123" width="144" height="33"/>
                         </variation>
                     </label>
                 </subviews>
@@ -113,7 +113,7 @@
                 <outlet property="weatherLabel" destination="9O7-fv-ouw" id="rwv-1e-jXb"/>
                 <outlet property="windLabel" destination="WYo-j6-Fem" id="MX7-eA-Jlc"/>
             </connections>
-            <point key="canvasLocation" x="57.5" y="153"/>
+            <point key="canvasLocation" x="-114.5" y="-180"/>
         </collectionViewCell>
     </objects>
     <resources>

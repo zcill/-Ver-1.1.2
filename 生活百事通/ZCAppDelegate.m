@@ -8,6 +8,9 @@
 
 #import "ZCAppDelegate.h"
 #import "ZCTabBar.h"
+#import <MAMapKit/MAMapKit.h>
+
+#define APP_KEY @"c7c5bda9430aa7408c30a6c38672d39d"
 
 @interface ZCAppDelegate ()
 
@@ -17,6 +20,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    // 初始化SDK
+    [MAMapServices sharedServices].apiKey = APP_KEY;
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];

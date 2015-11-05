@@ -41,6 +41,9 @@
 // 城市查区号接口
 #define CityToAreacodeURL @"http://api.jisuapi.com/areacode/city2code?"
 
+// 邮编查地址接口
+#define ZipcodeURL @"http://api.jisuapi.com/zipcode/query?"
+
 #pragma mark - 查询接口使用的AppKey
 
 // 天气查询AppKey
