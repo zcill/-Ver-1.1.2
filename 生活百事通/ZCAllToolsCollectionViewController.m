@@ -77,10 +77,10 @@
     section.headerTitle = @"出行必备";
     
     // 添加ItemSection
-    ZCItemModel *trainItem = [ZCItemModel itemWithTitle:@"火车查询" icon:@"train" destVcClass:[ZCRootViewController class]];
+    ZCItemModel *trainItem = [ZCItemModel itemWithTitle:@"火车查询" icon:@"train" destVcClass:[ZCTrainTableViewController class]];
     
     // 添加Item
-    ZCItemModel *oilItem = [ZCItemModel itemWithTitle:@"今日油价" icon:@"oil" destVcClass:[ZCRootViewController class]];
+    ZCItemModel *oilItem = [ZCItemModel itemWithTitle:@"今日油价" icon:@"oil" destVcClass:[ZCOilTableViewController class]];
     
     [section.items addObjectsFromArray:@[trainItem, oilItem]];
     [self.sections addObject:section];

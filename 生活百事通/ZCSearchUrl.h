@@ -44,6 +44,9 @@
 // 邮编查地址接口
 #define ZipcodeURL @"http://api.jisuapi.com/zipcode/query?"
 
+// 省份查油价
+#define OilURL @"http://api.jisuapi.com/oil/query?"
+
 #pragma mark - 查询接口使用的AppKey
 
 // 天气查询AppKey

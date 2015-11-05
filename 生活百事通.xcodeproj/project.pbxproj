@@ -50,6 +50,7 @@
 		4CDBCB8F1BD789B900310898 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CDBCB8D1BD789B900310898 /* LaunchScreen.storyboard */; };
 		4CDBCB9A1BD789B900310898 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBCB991BD789B900310898 /* _____Tests.m */; };
 		4CDBCBA51BD789B900310898 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBCBA41BD789B900310898 /* _____UITests.m */; };
+		4CE27F461BEB561C00FD7567 /* ZCOilTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE27F451BEB561C00FD7567 /* ZCOilTableViewController.m */; };
 		4CE685081BE38A3400D0647C /* ZCBusTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE685071BE38A3400D0647C /* ZCBusTableViewController.m */; };
 		4CE6850A1BE390A100D0647C /* Bus_Cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CE685091BE390A100D0647C /* Bus_Cities.plist */; };
 		4CEC81C71BE492BA000AFF83 /* ZCAllToolsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEC81C61BE492BA000AFF83 /* ZCAllToolsCollectionViewController.m */; };
@@ -200,6 +201,8 @@
 		4CDBCBA01BD789B900310898 /* 生活百事通UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "生活百事通UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CDBCBA41BD789B900310898 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		4CDBCBA61BD789B900310898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CE27F441BEB561C00FD7567 /* ZCOilTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCOilTableViewController.h; sourceTree = "<group>"; };
+		4CE27F451BEB561C00FD7567 /* ZCOilTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCOilTableViewController.m; sourceTree = "<group>"; };
 		4CE685061BE38A3300D0647C /* ZCBusTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCBusTableViewController.h; sourceTree = "<group>"; };
 		4CE685071BE38A3400D0647C /* ZCBusTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCBusTableViewController.m; sourceTree = "<group>"; };
 		4CE685091BE390A100D0647C /* Bus_Cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Bus_Cities.plist; sourceTree = "<group>"; };
@@ -503,6 +506,8 @@
 			children = (
 				4CB0F9731BEAEC5D00C40D16 /* ZCTrainTableViewController.h */,
 				4CB0F9741BEAEC5D00C40D16 /* ZCTrainTableViewController.m */,
+				4CE27F441BEB561C00FD7567 /* ZCOilTableViewController.h */,
+				4CE27F451BEB561C00FD7567 /* ZCOilTableViewController.m */,
 			);
 			name = "出行必备";
 			sourceTree = "<group>";
@@ -1142,6 +1147,7 @@
 				4CF8DB4E1BD8909C006853CB /* ZCItemModel.m in Sources */,
 				4CF8DB511BD8B396006853CB /* ZCSectionModel.m in Sources */,
 				4CEFB4CA1BE1AA67000CD045 /* ZCPhoneNumberTableViewController.m in Sources */,
+				4CE27F461BEB561C00FD7567 /* ZCOilTableViewController.m in Sources */,
 				4CB0F96F1BEAE3C000C40D16 /* ZCZipcodeTableViewController.m in Sources */,
 				4CF8DB5F1BD8D130006853CB /* CSStickyHeaderFlowLayout.m in Sources */,
 				4CE685081BE38A3400D0647C /* ZCBusTableViewController.m in Sources */,

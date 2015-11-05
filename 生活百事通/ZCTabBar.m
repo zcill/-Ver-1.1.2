@@ -13,7 +13,6 @@
 #import "ZCRootViewController.h"
 #import "ZCAllToolsCollectionViewController.h"
 #import "ZCUserTableViewController.h"
-#import "ZCMapViewController.h"
 #import "ZCMapSearchViewController.h"
 
 @interface ZCTabBar ()
@@ -69,7 +68,7 @@
     
     
     ZCMapSearchViewController *navi2 = [[ZCMapSearchViewController alloc] init];
-    navi2.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"" image:[UIImage imageNamed:@"goodsNormal"] selectedImage:[UIImage imageNamed:@"goodsSelected"]];
+    navi2.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"" image:[UIImage imageNamed:@"map"] selectedImage:[UIImage imageNamed:@"map"]];
     [self addChildViewController:navi2 title:@"地图"];
     
     

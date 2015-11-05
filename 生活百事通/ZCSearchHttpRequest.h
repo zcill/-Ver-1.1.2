@@ -67,4 +67,9 @@
  */
 + (void)getAddressWithZipcode:(NSString *)zipcode succuss:(void (^)(id JSON))successBlock failure:(void (^)(NSError *error))failureBlock;
 
+/**
+ 根据省份查油价
+ */
++ (void)getOilPriceWithProvince:(NSString *)province succuss:(void (^)(id JSON))successBlock failure:(void (^)(NSError *error))failureBlock;
+
 @end

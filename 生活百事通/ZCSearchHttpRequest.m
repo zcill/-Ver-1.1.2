@@ -241,5 +241,25 @@
     
 }
 
++ (void)getOilPriceWithProvince:(NSString *)province succuss:(void (^)(id JSON))successBlock failure:(void (^)(NSError *error))failureBlock {
+    
+    // 设置请求参数
+    NSMutableDictionary *params = [NSMutableDictionary dictionary];
+    params[@"province"] = province;
+    params[@"appkey"] = searchAppKey;
+    
+    // 请求
+    [ZCHttpRequestTool getWithURL:OilURL params:params success:^(id JSON) {
+        if (successBlock) {
+            successBlock(JSON);
+        }
+    } failure:^(NSError *error) {
+        if (failureBlock) {
+            failureBlock(error);
+        }
+    }];
+    
+}
+
 
 @end

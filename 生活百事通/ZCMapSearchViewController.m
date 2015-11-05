@@ -90,7 +90,7 @@
 
 // 定位事件
 - (void)locationButtonAction {
-    
+        
     [SVProgressHUD showWithStatus:@"定位中..."];
     
     // 开始定位
@@ -140,7 +140,7 @@
     request.keywords = self.searchField.text;
     
     // 设置搜索的城市
-    request.city = @[@"南京", @"北京"];
+    request.city = @[@"南京", @"北京", @"上海", @"杭州", @"南昌"];
     
     // 开始搜索
     [self.searchAPI AMapPlaceSearch:request];
