@@ -47,6 +47,9 @@
 // 省份查油价
 #define OilURL @"http://api.jisuapi.com/oil/query?"
 
+// 日期查历史上的今天
+#define HistoryURL @"http://api.jisuapi.com/todayhistory/query?"
+
 #pragma mark - 查询接口使用的AppKey
 
 // 天气查询AppKey

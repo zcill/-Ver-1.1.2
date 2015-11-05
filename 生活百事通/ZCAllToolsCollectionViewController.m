@@ -93,9 +93,9 @@
     section.headerTitle = @"知识技能";
     
     // 添加item
-    ZCItemModel *wikiItem = [ZCItemModel itemWithTitle:@"百度百科" icon:@"wiki" destVcClass:[ZCWikiViewController class]];
-    ZCItemModel *translateItem = [ZCItemModel itemWithTitle:@"翻译" icon:@"translate" destVcClass:[ZCRootViewController class]];
-    ZCItemModel *historyItem = [ZCItemModel itemWithTitle:@"历史上的今天" icon:@"todayhistory" destVcClass:[ZCRootViewController class]];
+    ZCItemModel *wikiItem = [ZCItemModel itemWithTitle:@"百科" icon:@"wiki" destVcClass:[ZCWikiViewController class]];
+    ZCItemModel *translateItem = [ZCItemModel itemWithTitle:@"翻译" icon:@"translate" destVcClass:[ZCTranslateViewController class]];
+    ZCItemModel *historyItem = [ZCItemModel itemWithTitle:@"历史上的今天" icon:@"todayhistory" destVcClass:[ZCHistoryTableViewController class]];
     ZCItemModel *newsItem = [ZCItemModel itemWithTitle:@"新闻" icon:@"news" destVcClass:[ZCNewsViewController class]];
     
     [section.items addObjectsFromArray:@[wikiItem, translateItem, historyItem, newsItem]];

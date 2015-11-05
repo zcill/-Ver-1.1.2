@@ -26,5 +26,7 @@
 #import "ZCZipcodeTableViewController.h"
 #import "ZCOilTableViewController.h"
 #import "ZCTrainTableViewController.h"
+#import "ZCTranslateViewController.h"
+#import "ZCHistoryTableViewController.h"
 
 #endif /* ZCAllToolsModel_h */

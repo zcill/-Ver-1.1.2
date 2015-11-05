@@ -51,6 +51,9 @@
 		4CDBCB9A1BD789B900310898 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBCB991BD789B900310898 /* _____Tests.m */; };
 		4CDBCBA51BD789B900310898 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBCBA41BD789B900310898 /* _____UITests.m */; };
 		4CE27F461BEB561C00FD7567 /* ZCOilTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE27F451BEB561C00FD7567 /* ZCOilTableViewController.m */; };
+		4CE27F4C1BEB721600FD7567 /* ZCTranslateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE27F4B1BEB721600FD7567 /* ZCTranslateViewController.m */; };
+		4CE27F4F1BEB762500FD7567 /* ZCHistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE27F4E1BEB762500FD7567 /* ZCHistoryTableViewController.m */; };
+		4CE27F521BEB8E1400FD7567 /* ZCWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE27F511BEB8E1400FD7567 /* ZCWebViewController.m */; };
 		4CE685081BE38A3400D0647C /* ZCBusTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE685071BE38A3400D0647C /* ZCBusTableViewController.m */; };
 		4CE6850A1BE390A100D0647C /* Bus_Cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CE685091BE390A100D0647C /* Bus_Cities.plist */; };
 		4CEC81C71BE492BA000AFF83 /* ZCAllToolsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEC81C61BE492BA000AFF83 /* ZCAllToolsCollectionViewController.m */; };
@@ -203,6 +206,12 @@
 		4CDBCBA61BD789B900310898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CE27F441BEB561C00FD7567 /* ZCOilTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCOilTableViewController.h; sourceTree = "<group>"; };
 		4CE27F451BEB561C00FD7567 /* ZCOilTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCOilTableViewController.m; sourceTree = "<group>"; };
+		4CE27F4A1BEB721600FD7567 /* ZCTranslateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCTranslateViewController.h; sourceTree = "<group>"; };
+		4CE27F4B1BEB721600FD7567 /* ZCTranslateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCTranslateViewController.m; sourceTree = "<group>"; };
+		4CE27F4D1BEB762500FD7567 /* ZCHistoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCHistoryTableViewController.h; sourceTree = "<group>"; };
+		4CE27F4E1BEB762500FD7567 /* ZCHistoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCHistoryTableViewController.m; sourceTree = "<group>"; };
+		4CE27F501BEB8E1400FD7567 /* ZCWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCWebViewController.h; sourceTree = "<group>"; };
+		4CE27F511BEB8E1400FD7567 /* ZCWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCWebViewController.m; sourceTree = "<group>"; };
 		4CE685061BE38A3300D0647C /* ZCBusTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCBusTableViewController.h; sourceTree = "<group>"; };
 		4CE685071BE38A3400D0647C /* ZCBusTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCBusTableViewController.m; sourceTree = "<group>"; };
 		4CE685091BE390A100D0647C /* Bus_Cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Bus_Cities.plist; sourceTree = "<group>"; };
@@ -397,6 +406,8 @@
 				4C3631891BDA5ECC0010C0CC /* ZCSearchHttpRequest.m */,
 				4C5863301BE39C4C00E75DC9 /* ZCSearchTableViewController.h */,
 				4C5863311BE39C4C00E75DC9 /* ZCSearchTableViewController.m */,
+				4CE27F501BEB8E1400FD7567 /* ZCWebViewController.h */,
+				4CE27F511BEB8E1400FD7567 /* ZCWebViewController.m */,
 			);
 			name = "Public(公用)";
 			sourceTree = "<group>";
@@ -517,6 +528,10 @@
 			children = (
 				4CECEC121BE8410600CB0363 /* ZCWikiViewController.h */,
 				4CECEC131BE8410600CB0363 /* ZCWikiViewController.m */,
+				4CE27F4A1BEB721600FD7567 /* ZCTranslateViewController.h */,
+				4CE27F4B1BEB721600FD7567 /* ZCTranslateViewController.m */,
+				4CE27F4D1BEB762500FD7567 /* ZCHistoryTableViewController.h */,
+				4CE27F4E1BEB762500FD7567 /* ZCHistoryTableViewController.m */,
 				4CD86B701BE8DDD2003BBA80 /* ZCNewsViewController.h */,
 				4CD86B711BE8DDD2003BBA80 /* ZCNewsViewController.m */,
 			);
@@ -1122,6 +1137,7 @@
 				4CAEF17C1BE6534200A2726B /* DateManager.m in Sources */,
 				4CEE0B9E1BE614CF0026B344 /* ZCAboutViewController.m in Sources */,
 				4CB0F9751BEAEC5D00C40D16 /* ZCTrainTableViewController.m in Sources */,
+				4CE27F4C1BEB721600FD7567 /* ZCTranslateViewController.m in Sources */,
 				4CECEC141BE8410600CB0363 /* ZCWikiViewController.m in Sources */,
 				4CEE0C5F1BE648E00026B344 /* InfoViewController.m in Sources */,
 				4C4A28F01BE211A3003E9E5E /* ZCCurrencyTableViewController.m in Sources */,
@@ -1137,8 +1153,10 @@
 				4CEE0C671BE648E00026B344 /* JKToast.m in Sources */,
 				4CDBCB841BD789B900310898 /* ZCAppDelegate.m in Sources */,
 				4CD86B751BE8E773003BBA80 /* ZCRevenueTableViewController.m in Sources */,
+				4CE27F4F1BEB762500FD7567 /* ZCHistoryTableViewController.m in Sources */,
 				4CAEF17D1BE6534200A2726B /* DBManager.m in Sources */,
 				4CEE0C5B1BE648E00026B344 /* Cell.m in Sources */,
+				4CE27F521BEB8E1400FD7567 /* ZCWebViewController.m in Sources */,
 				4CEE0C5A1BE648E00026B344 /* BaseViewController.m in Sources */,
 				4CDBCB811BD789B900310898 /* main.m in Sources */,
 				4CECD53F1BE9FAE80061CA72 /* ZCTVTableViewController.m in Sources */,

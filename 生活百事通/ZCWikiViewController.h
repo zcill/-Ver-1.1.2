@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ZCWikiViewController : UIViewController
+@interface ZCWikiViewController : UITableViewController
 
 @end

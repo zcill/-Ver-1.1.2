@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ZCNewsViewController : UIViewController
+@interface ZCNewsViewController : UITableViewController
 
 @end

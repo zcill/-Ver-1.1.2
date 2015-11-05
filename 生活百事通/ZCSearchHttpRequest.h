@@ -72,4 +72,9 @@
  */
 + (void)getOilPriceWithProvince:(NSString *)province succuss:(void (^)(id JSON))successBlock failure:(void (^)(NSError *error))failureBlock;
 
+/**
+ 根据日期查历史上的今天
+ */
++ (void)getHistoryWithMonth:(NSString *)month date:(NSString *)date succuss:(void (^)(id JSON))successBlock failure:(void (^)(NSError *error))failureBlock;
+
 @end
