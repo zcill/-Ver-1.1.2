@@ -16,6 +16,8 @@
 		4C4A28F01BE211A3003E9E5E /* ZCCurrencyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A28EF1BE211A3003E9E5E /* ZCCurrencyTableViewController.m */; };
 		4C4A28F61BE21B89003E9E5E /* CurrencyCode.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C4A28F51BE21B89003E9E5E /* CurrencyCode.plist */; };
 		4C5863321BE39C4C00E75DC9 /* ZCSearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5863311BE39C4C00E75DC9 /* ZCSearchTableViewController.m */; };
+		4C6894B61BEB3D52005B4AC7 /* ZCMapSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6894B51BEB3D52005B4AC7 /* ZCMapSearchViewController.m */; };
+		4C6894B81BEB3D79005B4AC7 /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6894B71BEB3D79005B4AC7 /* AMapSearchKit.framework */; };
 		4C6B33C51BD7967F00475586 /* ZCRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B33C41BD7967F00475586 /* ZCRootViewController.m */; };
 		4C6B33DB1BD7BEE200475586 /* UIButton+ZCQuickCreateButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B33DA1BD7BEE200475586 /* UIButton+ZCQuickCreateButton.m */; };
 		4C9B47951BDE06CB0030B947 /* ZCCitiesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9B47941BDE06CB0030B947 /* ZCCitiesTableViewController.m */; };
@@ -29,7 +31,6 @@
 		4CAEF17E1BE6534200A2726B /* DBManagerQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEF17B1BE6534200A2726B /* DBManagerQueue.m */; };
 		4CB0F96F1BEAE3C000C40D16 /* ZCZipcodeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB0F96E1BEAE3C000C40D16 /* ZCZipcodeTableViewController.m */; };
 		4CB0F9751BEAEC5D00C40D16 /* ZCTrainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB0F9741BEAEC5D00C40D16 /* ZCTrainTableViewController.m */; };
-		4CB0F9791BEB064B00C40D16 /* ZCMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB0F9781BEB064B00C40D16 /* ZCMapViewController.m */; };
 		4CB0F9941BEB32F800C40D16 /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4CB0F9921BEB32F800C40D16 /* AMap.bundle */; };
 		4CB0F9951BEB32F800C40D16 /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB0F9931BEB32F800C40D16 /* MAMapKit.framework */; };
 		4CB0F9961BEB332300C40D16 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB0F9881BEB087D00C40D16 /* libstdc++.6.0.9.tbd */; };
@@ -145,6 +146,9 @@
 		4C4A28F51BE21B89003E9E5E /* CurrencyCode.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CurrencyCode.plist; sourceTree = "<group>"; };
 		4C5863301BE39C4C00E75DC9 /* ZCSearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCSearchTableViewController.h; sourceTree = "<group>"; };
 		4C5863311BE39C4C00E75DC9 /* ZCSearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCSearchTableViewController.m; sourceTree = "<group>"; };
+		4C6894B41BEB3D52005B4AC7 /* ZCMapSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCMapSearchViewController.h; sourceTree = "<group>"; };
+		4C6894B51BEB3D52005B4AC7 /* ZCMapSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCMapSearchViewController.m; sourceTree = "<group>"; };
+		4C6894B71BEB3D79005B4AC7 /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
 		4C6B33C31BD7967F00475586 /* ZCRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCRootViewController.h; sourceTree = "<group>"; };
 		4C6B33C41BD7967F00475586 /* ZCRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCRootViewController.m; sourceTree = "<group>"; };
 		4C6B33C91BD7B6CD00475586 /* ZCHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZCHeader.h; path = "生活百事通/ZCHeader.h"; sourceTree = "<group>"; };
@@ -167,8 +171,6 @@
 		4CB0F96E1BEAE3C000C40D16 /* ZCZipcodeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCZipcodeTableViewController.m; sourceTree = "<group>"; };
 		4CB0F9731BEAEC5D00C40D16 /* ZCTrainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCTrainTableViewController.h; sourceTree = "<group>"; };
 		4CB0F9741BEAEC5D00C40D16 /* ZCTrainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCTrainTableViewController.m; sourceTree = "<group>"; };
-		4CB0F9771BEB064B00C40D16 /* ZCMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCMapViewController.h; sourceTree = "<group>"; };
-		4CB0F9781BEB064B00C40D16 /* ZCMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCMapViewController.m; sourceTree = "<group>"; };
 		4CB0F97E1BEB084500C40D16 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		4CB0F9801BEB084D00C40D16 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		4CB0F9821BEB085B00C40D16 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -307,6 +309,7 @@
 				4CB0F9961BEB332300C40D16 /* libstdc++.6.0.9.tbd in Frameworks */,
 				4CD86B6F1BE8D00B003BBA80 /* WebKit.framework in Frameworks */,
 				4CEE0C6A1BE64A3E0026B344 /* libz.tbd in Frameworks */,
+				4C6894B81BEB3D79005B4AC7 /* AMapSearchKit.framework in Frameworks */,
 				4CEE0C021BE61AFD0026B344 /* libsqlite3.tbd in Frameworks */,
 				3E05AC1E350C813C53788DBF /* libPods.a in Frameworks */,
 				4CB0F9951BEB32F800C40D16 /* MAMapKit.framework in Frameworks */,
@@ -419,6 +422,7 @@
 		4C6B33C11BD7964500475586 /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				4C6894B71BEB3D79005B4AC7 /* AMapSearchKit.framework */,
 				4CB0F9921BEB32F800C40D16 /* AMap.bundle */,
 				4CB0F9931BEB32F800C40D16 /* MAMapKit.framework */,
 				4CF8DB5A1BD8D130006853CB /* CSStickyHeaderFlowLayout */,
@@ -524,8 +528,8 @@
 		4CB0F9761BEAFFD900C40D16 /* Map(地图) */ = {
 			isa = PBXGroup;
 			children = (
-				4CB0F9771BEB064B00C40D16 /* ZCMapViewController.h */,
-				4CB0F9781BEB064B00C40D16 /* ZCMapViewController.m */,
+				4C6894B41BEB3D52005B4AC7 /* ZCMapSearchViewController.h */,
+				4C6894B51BEB3D52005B4AC7 /* ZCMapSearchViewController.m */,
 			);
 			name = "Map(地图)";
 			sourceTree = "<group>";
@@ -1119,6 +1123,7 @@
 				4C5863321BE39C4C00E75DC9 /* ZCSearchTableViewController.m in Sources */,
 				4C17CBFC1BEA425100CB7269 /* ZCAreaCodeTableViewController.m in Sources */,
 				4CEE0C081BE63D470026B344 /* ZCTabBar.m in Sources */,
+				4C6894B61BEB3D52005B4AC7 /* ZCMapSearchViewController.m in Sources */,
 				4CF8DB601BD8D130006853CB /* CSStickyHeaderFlowLayoutAttributes.m in Sources */,
 				4C3631871BDA566D0010C0CC /* ZCHttpRequestTool.m in Sources */,
 				4CEE0C631BE648E00026B344 /* ScanViewController.m in Sources */,
@@ -1137,7 +1142,6 @@
 				4CF8DB4E1BD8909C006853CB /* ZCItemModel.m in Sources */,
 				4CF8DB511BD8B396006853CB /* ZCSectionModel.m in Sources */,
 				4CEFB4CA1BE1AA67000CD045 /* ZCPhoneNumberTableViewController.m in Sources */,
-				4CB0F9791BEB064B00C40D16 /* ZCMapViewController.m in Sources */,
 				4CB0F96F1BEAE3C000C40D16 /* ZCZipcodeTableViewController.m in Sources */,
 				4CF8DB5F1BD8D130006853CB /* CSStickyHeaderFlowLayout.m in Sources */,
 				4CE685081BE38A3400D0647C /* ZCBusTableViewController.m in Sources */,
