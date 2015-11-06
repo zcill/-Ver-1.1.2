@@ -77,4 +77,14 @@
  */
 + (void)getHistoryWithMonth:(NSString *)month date:(NSString *)date succuss:(void (^)(id JSON))successBlock failure:(void (^)(NSError *error))failureBlock;
 
+/**
+ 查黄金价格
+ */
++ (void)getGoldPriceBackSuccuss:(void (^)(id))successBlock failure:(void (^)(NSError *))failureBlock;
+
+/**
+ 查白银价格
+ */
++ (void)getSilverPriceBackSuccuss:(void (^)(id))successBlock failure:(void (^)(NSError *))failureBlock;
+
 @end

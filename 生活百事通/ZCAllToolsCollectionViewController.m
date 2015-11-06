@@ -110,9 +110,9 @@
     section.headerTitle = @"投资理财";
     
     // 添加item
-    ZCItemModel *ticketItem = [ZCItemModel itemWithTitle:@"彩票开奖" icon:@"ticket" destVcClass:[ZCRootViewController class]];
-    ZCItemModel *goldItem = [ZCItemModel itemWithTitle:@"黄金价格" icon:@"gold" destVcClass:[ZCRootViewController class]];
-    ZCItemModel *silverItem = [ZCItemModel itemWithTitle:@"白银价格" icon:@"silver" destVcClass:[ZCRootViewController class]];
+    ZCItemModel *ticketItem = [ZCItemModel itemWithTitle:@"彩票开奖" icon:@"ticket" destVcClass:[ZCTicketTableViewController class]];
+    ZCItemModel *goldItem = [ZCItemModel itemWithTitle:@"黄金价格" icon:@"gold" destVcClass:[ZCGoldTableViewController class]];
+    ZCItemModel *silverItem = [ZCItemModel itemWithTitle:@"白银价格" icon:@"silver" destVcClass:[ZCSilverTableViewController class]];
     
     [section.items addObjectsFromArray:@[ticketItem, goldItem, silverItem]];
     [self.sections addObject:section];

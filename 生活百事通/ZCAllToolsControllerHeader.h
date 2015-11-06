@@ -28,5 +28,8 @@
 #import "ZCTrainTableViewController.h"
 #import "ZCTranslateViewController.h"
 #import "ZCHistoryTableViewController.h"
+#import "ZCGoldTableViewController.h"
+#import "ZCSilverTableViewController.h"
+#import "ZCTicketTableViewController.h"
 
 #endif /* ZCAllToolsModel_h */

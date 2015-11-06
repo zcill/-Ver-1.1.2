@@ -11,7 +11,7 @@
 #import "ZCWebViewController.h"
 @import WebKit;
 
-@interface ZCTranslateViewController ()<WKNavigationDelegate>
+@interface ZCTranslateViewController ()
 
 @property (nonatomic, strong) RETableViewManager *manager;
 

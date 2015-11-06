@@ -102,6 +102,9 @@
 		4CEE0C6D1BE64B690026B344 /* ZCScannerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEE0C6C1BE64B690026B344 /* ZCScannerTableViewController.m */; };
 		4CEFB4CA1BE1AA67000CD045 /* ZCPhoneNumberTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEFB4C91BE1AA67000CD045 /* ZCPhoneNumberTableViewController.m */; };
 		4CEFB5141BE1BCEC000CD045 /* ZCIPSearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEFB5131BE1BCEC000CD045 /* ZCIPSearchTableViewController.m */; };
+		4CF1D3D51BEC37430038213A /* ZCGoldTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1D3D41BEC37430038213A /* ZCGoldTableViewController.m */; };
+		4CF1D3D81BEC518A0038213A /* ZCSilverTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1D3D71BEC518A0038213A /* ZCSilverTableViewController.m */; };
+		4CF1D3DB1BEC53950038213A /* ZCTicketTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1D3DA1BEC53950038213A /* ZCTicketTableViewController.m */; };
 		4CF8DB3D1BD886D0006853CB /* ZCMainCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF8DB3C1BD886D0006853CB /* ZCMainCollectionViewController.m */; };
 		4CF8DB411BD88949006853CB /* ZCWeatherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF8DB3F1BD88949006853CB /* ZCWeatherCell.m */; };
 		4CF8DB421BD88949006853CB /* ZCWeatherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CF8DB401BD88949006853CB /* ZCWeatherCell.xib */; };
@@ -284,6 +287,12 @@
 		4CEFB4C91BE1AA67000CD045 /* ZCPhoneNumberTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCPhoneNumberTableViewController.m; sourceTree = "<group>"; };
 		4CEFB5121BE1BCEC000CD045 /* ZCIPSearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCIPSearchTableViewController.h; sourceTree = "<group>"; };
 		4CEFB5131BE1BCEC000CD045 /* ZCIPSearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCIPSearchTableViewController.m; sourceTree = "<group>"; };
+		4CF1D3D31BEC37430038213A /* ZCGoldTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCGoldTableViewController.h; sourceTree = "<group>"; };
+		4CF1D3D41BEC37430038213A /* ZCGoldTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCGoldTableViewController.m; sourceTree = "<group>"; };
+		4CF1D3D61BEC518A0038213A /* ZCSilverTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCSilverTableViewController.h; sourceTree = "<group>"; };
+		4CF1D3D71BEC518A0038213A /* ZCSilverTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCSilverTableViewController.m; sourceTree = "<group>"; };
+		4CF1D3D91BEC53950038213A /* ZCTicketTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCTicketTableViewController.h; sourceTree = "<group>"; };
+		4CF1D3DA1BEC53950038213A /* ZCTicketTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCTicketTableViewController.m; sourceTree = "<group>"; };
 		4CF8DB3B1BD886D0006853CB /* ZCMainCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCMainCollectionViewController.h; sourceTree = "<group>"; };
 		4CF8DB3C1BD886D0006853CB /* ZCMainCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCMainCollectionViewController.m; sourceTree = "<group>"; };
 		4CF8DB3E1BD88949006853CB /* ZCWeatherCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCWeatherCell.h; sourceTree = "<group>"; };
@@ -541,6 +550,12 @@
 		4CB0F9721BEAEBDF00C40D16 /* 投资理财 */ = {
 			isa = PBXGroup;
 			children = (
+				4CF1D3D31BEC37430038213A /* ZCGoldTableViewController.h */,
+				4CF1D3D41BEC37430038213A /* ZCGoldTableViewController.m */,
+				4CF1D3D61BEC518A0038213A /* ZCSilverTableViewController.h */,
+				4CF1D3D71BEC518A0038213A /* ZCSilverTableViewController.m */,
+				4CF1D3D91BEC53950038213A /* ZCTicketTableViewController.h */,
+				4CF1D3DA1BEC53950038213A /* ZCTicketTableViewController.m */,
 			);
 			name = "投资理财";
 			sourceTree = "<group>";
@@ -1142,6 +1157,7 @@
 				4CEE0C5F1BE648E00026B344 /* InfoViewController.m in Sources */,
 				4C4A28F01BE211A3003E9E5E /* ZCCurrencyTableViewController.m in Sources */,
 				4C5863321BE39C4C00E75DC9 /* ZCSearchTableViewController.m in Sources */,
+				4CF1D3D81BEC518A0038213A /* ZCSilverTableViewController.m in Sources */,
 				4C17CBFC1BEA425100CB7269 /* ZCAreaCodeTableViewController.m in Sources */,
 				4CEE0C081BE63D470026B344 /* ZCTabBar.m in Sources */,
 				4C6894B61BEB3D52005B4AC7 /* ZCMapSearchViewController.m in Sources */,
@@ -1164,6 +1180,7 @@
 				4C36318A1BDA5ECC0010C0CC /* ZCSearchHttpRequest.m in Sources */,
 				4CF8DB4E1BD8909C006853CB /* ZCItemModel.m in Sources */,
 				4CF8DB511BD8B396006853CB /* ZCSectionModel.m in Sources */,
+				4CF1D3DB1BEC53950038213A /* ZCTicketTableViewController.m in Sources */,
 				4CEFB4CA1BE1AA67000CD045 /* ZCPhoneNumberTableViewController.m in Sources */,
 				4CE27F461BEB561C00FD7567 /* ZCOilTableViewController.m in Sources */,
 				4CB0F96F1BEAE3C000C40D16 /* ZCZipcodeTableViewController.m in Sources */,
@@ -1177,6 +1194,7 @@
 				4C14EAE41BE0F1F300B2C4CB /* ZCSubtitleItem.m in Sources */,
 				4CEE0C6D1BE64B690026B344 /* ZCScannerTableViewController.m in Sources */,
 				4CEE0BA01BE614CF0026B344 /* ZCUserTableViewController.m in Sources */,
+				4CF1D3D51BEC37430038213A /* ZCGoldTableViewController.m in Sources */,
 				4CECD5351BE9DFC00061CA72 /* ZCExpressTableViewController.m in Sources */,
 				4CEE0C661BE648E00026B344 /* JKAlert.m in Sources */,
 				4C6B33DB1BD7BEE200475586 /* UIButton+ZCQuickCreateButton.m in Sources */,

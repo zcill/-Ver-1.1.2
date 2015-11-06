@@ -44,11 +44,17 @@
 // 邮编查地址接口
 #define ZipcodeURL @"http://api.jisuapi.com/zipcode/query?"
 
-// 省份查油价
+// 省份查油价接口
 #define OilURL @"http://api.jisuapi.com/oil/query?"
 
-// 日期查历史上的今天
+// 日期查历史上的今天接口
 #define HistoryURL @"http://api.jisuapi.com/todayhistory/query?"
+
+// 黄金价格接口
+#define GoldURL @"http://api.jisuapi.com/gold/shgold?"
+
+// 白银价格接口
+#define SilverURL @"http://api.jisuapi.com/silver/shgold?"
 
 #pragma mark - 查询接口使用的AppKey
 

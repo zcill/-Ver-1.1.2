@@ -282,5 +282,43 @@
     
 }
 
++ (void)getGoldPriceBackSuccuss:(void (^)(id))successBlock failure:(void (^)(NSError *))failureBlock {
+    
+    // 设置请求参数
+    NSMutableDictionary *params = [NSMutableDictionary dictionary];
+    params[@"appkey"] = searchAppKey;
+    
+    // 请求
+    [ZCHttpRequestTool getWithURL:GoldURL params:params success:^(id JSON) {
+        if (successBlock) {
+            successBlock(JSON);
+        }
+    } failure:^(NSError *error) {
+        if (failureBlock) {
+            failureBlock(error);
+        }
+    }];
+    
+}
+
++ (void)getSilverPriceBackSuccuss:(void (^)(id))successBlock failure:(void (^)(NSError *))failureBlock {
+    
+    // 设置请求参数
+    NSMutableDictionary *params = [NSMutableDictionary dictionary];
+    params[@"appkey"] = searchAppKey;
+    
+    // 请求
+    [ZCHttpRequestTool getWithURL:SilverURL params:params success:^(id JSON) {
+        if (successBlock) {
+            successBlock(JSON);
+        }
+    } failure:^(NSError *error) {
+        if (failureBlock) {
+            failureBlock(error);
+        }
+    }];
+    
+}
+
 
 @end

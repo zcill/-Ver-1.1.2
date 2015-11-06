@@ -12,7 +12,7 @@
 
 @import WebKit;
 
-@interface ZCNewsViewController ()<WKNavigationDelegate>
+@interface ZCNewsViewController ()
 
 @property (nonatomic, strong) RETableViewManager *manager;
 
