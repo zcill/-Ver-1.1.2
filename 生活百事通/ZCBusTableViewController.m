@@ -96,9 +96,7 @@
     RETextItem *busLineItem = [RETextItem itemWithTitle:@"线路" value:nil];
     [busSection addItem:busLineItem];
     self.busLineItem = busLineItem;
-    
 
-    
 }
 
 // 抽出一个方法，专门写创建RERadioItem
@@ -107,23 +105,6 @@
     __typeof(self) __weak weakSelf = self;
     
     RERadioItem *swapOutIn = [RERadioItem itemWithTitle:title value:value selectionHandler:^(RERadioItem *item) {
-        
-        /*
-
-        RETableViewOptionsController *optionsController = [[RETableViewOptionsController alloc] initWithItem:item options:weakSelf.citiesArray multipleChoice:NO completionHandler:^(RETableViewItem *selectedItem) {
-            
-            [weakSelf.navigationController popViewControllerAnimated:YES];
-            
-            [item reloadRowWithAnimation:UITableViewRowAnimationAutomatic];
-            
-        }];
-        
-        optionsController.tableView.tableHeaderView = self.searchBar;
-        optionsController.hidesBottomBarWhenPushed = YES;
-        
-        [weakSelf.navigationController pushViewController:optionsController animated:YES];
-        
-        */
         
         ZCSearchTableViewController *search = [[ZCSearchTableViewController alloc] init];
         

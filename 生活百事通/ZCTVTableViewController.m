@@ -9,6 +9,7 @@
 #import "ZCTVTableViewController.h"
 #import "ZCHeader.h"
 #import <RETableViewManager/RETableViewOptionsController.h>
+#import "ZCSearchTVViewController.h"
 
 @interface ZCTVTableViewController ()
 
@@ -105,17 +106,16 @@
     
     RERadioItem *swapOutIn = [RERadioItem itemWithTitle:title value:value selectionHandler:^(RERadioItem *item) {
         
-        RETableViewOptionsController *optionsController = [[RETableViewOptionsController alloc] initWithItem:item options:weakSelf.citiesArray multipleChoice:NO completionHandler:^(RETableViewItem *selectedItem) {
-            
-            [weakSelf.navigationController popViewControllerAnimated:YES];
-            
+        ZCSearchTVViewController *search = [[ZCSearchTVViewController alloc] init];
+        
+        [search returnString:^(NSString *name, NSString *tvid) {
+            NSString *tv = [NSString stringWithFormat:@"%@ - %@", tvid, name];
+            item.value = tv;
             [item reloadRowWithAnimation:UITableViewRowAnimationAutomatic];
-            
         }];
         
-        optionsController.hidesBottomBarWhenPushed = YES;
-        
-        [weakSelf.navigationController pushViewController:optionsController animated:YES];
+        search.hidesBottomBarWhenPushed = YES;
+        [weakSelf.navigationController pushViewController:search animated:YES];
         
     }];
     

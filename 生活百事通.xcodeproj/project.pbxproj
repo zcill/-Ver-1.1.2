@@ -40,6 +40,7 @@
 		4CB141651BDA24E40060F5A5 /* ZCWeatherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB141641BDA24E40060F5A5 /* ZCWeatherModel.m */; };
 		4CB52F721BE79A46009DEEAB /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB52F711BE79A46009DEEAB /* icon.png */; };
 		4CD5270D1BEDD0A0008A3773 /* ZCSearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5270C1BEDD0A0008A3773 /* ZCSearchTableViewController.m */; };
+		4CD527571BEE026B008A3773 /* ZCSearchTVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD527561BEE026B008A3773 /* ZCSearchTVViewController.m */; };
 		4CD86B6F1BE8D00B003BBA80 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD86B6D1BE8CEFE003BBA80 /* WebKit.framework */; };
 		4CD86B721BE8DDD2003BBA80 /* ZCNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD86B711BE8DDD2003BBA80 /* ZCNewsViewController.m */; };
 		4CD86B751BE8E773003BBA80 /* ZCRevenueTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD86B741BE8E773003BBA80 /* ZCRevenueTableViewController.m */; };
@@ -187,6 +188,8 @@
 		4CD527071BED9D6B008A3773 /* ZCSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCSingleton.h; sourceTree = "<group>"; };
 		4CD5270B1BEDD0A0008A3773 /* ZCSearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCSearchTableViewController.h; sourceTree = "<group>"; };
 		4CD5270C1BEDD0A0008A3773 /* ZCSearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCSearchTableViewController.m; sourceTree = "<group>"; };
+		4CD527551BEE026B008A3773 /* ZCSearchTVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCSearchTVViewController.h; sourceTree = "<group>"; };
+		4CD527561BEE026B008A3773 /* ZCSearchTVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCSearchTVViewController.m; sourceTree = "<group>"; };
 		4CD86B6D1BE8CEFE003BBA80 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		4CD86B701BE8DDD2003BBA80 /* ZCNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCNewsViewController.h; sourceTree = "<group>"; };
 		4CD86B711BE8DDD2003BBA80 /* ZCNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCNewsViewController.m; sourceTree = "<group>"; };
@@ -702,6 +705,8 @@
 				4CECD5341BE9DFC00061CA72 /* ZCExpressTableViewController.m */,
 				4CECD53D1BE9FAE80061CA72 /* ZCTVTableViewController.h */,
 				4CECD53E1BE9FAE80061CA72 /* ZCTVTableViewController.m */,
+				4CD527551BEE026B008A3773 /* ZCSearchTVViewController.h */,
+				4CD527561BEE026B008A3773 /* ZCSearchTVViewController.m */,
 				4C17CBFA1BEA425100CB7269 /* ZCAreaCodeTableViewController.h */,
 				4C17CBFB1BEA425100CB7269 /* ZCAreaCodeTableViewController.m */,
 				4CB0F96D1BEAE3C000C40D16 /* ZCZipcodeTableViewController.h */,
@@ -1195,6 +1200,7 @@
 				4CEE0C661BE648E00026B344 /* JKAlert.m in Sources */,
 				4C6B33DB1BD7BEE200475586 /* UIButton+ZCQuickCreateButton.m in Sources */,
 				4C6B33C51BD7967F00475586 /* ZCRootViewController.m in Sources */,
+				4CD527571BEE026B008A3773 /* ZCSearchTVViewController.m in Sources */,
 				4CAEF17E1BE6534200A2726B /* DBManagerQueue.m in Sources */,
 				4C9B47951BDE06CB0030B947 /* ZCCitiesTableViewController.m in Sources */,
 				4CD86B721BE8DDD2003BBA80 /* ZCNewsViewController.m in Sources */,
