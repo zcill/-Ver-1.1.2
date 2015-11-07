@@ -9,6 +9,7 @@
 #import "ZCBusTableViewController.h"
 #import "ZCHeader.h"
 #import <RETableViewManager/RETableViewOptionsController.h>
+#import "ZCSearchTableViewController.h"
 
 @interface ZCBusTableViewController ()<UISearchBarDelegate>
 
@@ -107,6 +108,8 @@
     
     RERadioItem *swapOutIn = [RERadioItem itemWithTitle:title value:value selectionHandler:^(RERadioItem *item) {
         
+        /*
+
         RETableViewOptionsController *optionsController = [[RETableViewOptionsController alloc] initWithItem:item options:weakSelf.citiesArray multipleChoice:NO completionHandler:^(RETableViewItem *selectedItem) {
             
             [weakSelf.navigationController popViewControllerAnimated:YES];
@@ -115,11 +118,17 @@
             
         }];
         
-        [self addSearchBar];
         optionsController.tableView.tableHeaderView = self.searchBar;
         optionsController.hidesBottomBarWhenPushed = YES;
         
         [weakSelf.navigationController pushViewController:optionsController animated:YES];
+        
+        */
+        
+        ZCSearchTableViewController *search = [[ZCSearchTableViewController alloc] init];
+        
+        search.hidesBottomBarWhenPushed = YES;
+        [weakSelf.navigationController pushViewController:search animated:YES];
         
     }];
     
@@ -130,13 +139,7 @@
 #pragma mark 添加搜索框
 - (void)addSearchBar {
     
-    UISearchBar *searchBar = [[UISearchBar alloc] init];
-    searchBar.autoresizingMask = UIViewAutoresizingFlexibleWidth;
-    searchBar.frame = CGRectMake(0, 0, self.view.frame.size.width, 36);
-    searchBar.delegate = self;
-    searchBar.placeholder = @"请输入城市名或拼音";
-//    [self.view addSubview:searchBar];
-    self.searchBar = searchBar;
+
     
 }
 
