@@ -127,6 +127,12 @@
         
         ZCSearchTableViewController *search = [[ZCSearchTableViewController alloc] init];
         
+        [search returnString:^(NSString *name, NSString *cityid) {
+            NSString *city = [NSString stringWithFormat:@"%@ - %@", cityid, name];
+            item.value = city;
+            [item reloadRowWithAnimation:UITableViewRowAnimationAutomatic];
+        }];
+        
         search.hidesBottomBarWhenPushed = YES;
         [weakSelf.navigationController pushViewController:search animated:YES];
         
@@ -136,20 +142,20 @@
     
 }
 
-#pragma mark 添加搜索框
-- (void)addSearchBar {
-    
-
-    
-}
-
-#pragma 搜索框代理方法
-// 监听搜索框文字的改变
-- (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText {
-    
-
-    
-}
+//#pragma mark 添加搜索框
+//- (void)addSearchBar {
+//    
+//
+//    
+//}
+//
+//#pragma 搜索框代理方法
+//// 监听搜索框文字的改变
+//- (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText {
+//    
+//
+//    
+//}
 
 - (void)addSectionResult {
     

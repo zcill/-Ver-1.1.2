@@ -22,6 +22,12 @@
 
 @implementation ZCSearchTableViewController
 
+- (void)returnString:(completeBlock)block {
+    
+    self.returnStringBlock = block;
+    
+}
+
 - (NSMutableArray *)dataSource {
     
     if (_dataSource == nil) {
@@ -57,6 +63,7 @@
     self.displayController.searchResultsDataSource = self;
     
     [self.view addSubview:self.tableView];
+
     
 }
 
@@ -69,7 +76,7 @@
     static NSString *reuseID = @"cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:reuseID];
     if (!cell) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:reuseID];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:reuseID];
     }
     
     NSDictionary *dict = self.dataSource[indexPath.row];
@@ -77,14 +84,14 @@
     if (tableView == self.tableView) {
         
         cell.textLabel.text = dict[@"name"];
-        cell.detailTextLabel.text = dict[@"cityid"];
+        cell.detailTextLabel.text = [dict[@"cityid"] stringValue];
         
     } else {
         
         NSDictionary *dict = self.searchResult[indexPath.row];
         
         cell.textLabel.text = dict[@"name"];
-        cell.detailTextLabel.text = dict[@"cityid"];
+        cell.detailTextLabel.text = [dict[@"cityid"] stringValue];
         
     }
     
@@ -115,6 +122,28 @@
         
     }
     return 0;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    if (tableView == self.tableView) {
+        NSDictionary *dict = self.dataSource[indexPath.row];
+        
+        NSString *name = dict[@"name"];
+        NSString *cityid = dict[@"cityid"];
+        
+        self.returnStringBlock(name, cityid);
+    } else {
+        
+        NSDictionary *dict = self.searchResult[indexPath.row];
+        NSString *name = dict[@"name"];
+        NSString *cityid = dict[@"cityid"];
+        
+        self.returnStringBlock(name, cityid);
+    }
+
+    
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 @end
