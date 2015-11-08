@@ -9,6 +9,7 @@
 #import "ZCExpressTableViewController.h"
 #import "ZCHeader.h"
 #import <RETableViewManager/RETableViewOptionsController.h>
+#import "ZCSearchExpressViewController.h"
 
 @interface ZCExpressTableViewController ()
 
@@ -104,17 +105,28 @@
     
     RERadioItem *swapOutIn = [RERadioItem itemWithTitle:title value:value selectionHandler:^(RERadioItem *item) {
         
-        RETableViewOptionsController *optionsController = [[RETableViewOptionsController alloc] initWithItem:item options:weakSelf.citiesArray multipleChoice:NO completionHandler:^(RETableViewItem *selectedItem) {
-            
-            [weakSelf.navigationController popViewControllerAnimated:YES];
-            
+//        RETableViewOptionsController *optionsController = [[RETableViewOptionsController alloc] initWithItem:item options:weakSelf.citiesArray multipleChoice:NO completionHandler:^(RETableViewItem *selectedItem) {
+//            
+//            [weakSelf.navigationController popViewControllerAnimated:YES];
+//            
+//            [item reloadRowWithAnimation:UITableViewRowAnimationAutomatic];
+//            
+//        }];
+//        
+//        optionsController.hidesBottomBarWhenPushed = YES;
+//        
+//        [weakSelf.navigationController pushViewController:optionsController animated:YES];
+        
+        ZCSearchExpressViewController *search = [[ZCSearchExpressViewController alloc] init];
+        
+        [search returnString:^(NSString *name, NSString *type) {
+            NSString *express = [NSString stringWithFormat:@"%@ - %@", type, name];
+            item.value = express;
             [item reloadRowWithAnimation:UITableViewRowAnimationAutomatic];
-            
         }];
         
-        optionsController.hidesBottomBarWhenPushed = YES;
-        
-        [weakSelf.navigationController pushViewController:optionsController animated:YES];
+        search.hidesBottomBarWhenPushed = YES;
+        [weakSelf.navigationController pushViewController:search animated:YES];
         
     }];
     
@@ -206,7 +218,7 @@
             }
             
         } else {
-            [self.resultSection addItem:[RETableViewItem itemWithTitle:@"查询失败，可能输入的路线有误"]];
+            [self.resultSection addItem:[RETableViewItem itemWithTitle:@"查询失败，可能输入有误"]];
         }
         
         // 重新加载section

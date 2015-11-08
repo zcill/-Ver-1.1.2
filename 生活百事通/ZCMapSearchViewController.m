@@ -42,10 +42,17 @@
     // 2. 初始化数据
     self.pinsArray = [[NSMutableArray alloc] init];
     
-    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(20, 20, ScreenWidth, 40)];
+    // 贴上搜索框
+    [self initView];
+}
+
+- (void)initView {
+    
+    // 透明view
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(20, 40, ScreenWidth, 40)];
     view.backgroundColor = [UIColor clearColor];
     
-    // 3. 创建textField和button
+    // 搜索框
     CGFloat fieldX = 0;
     CGFloat fieldY = 0;
     CGFloat fieldW = ScreenWidth * 0.7;
@@ -56,6 +63,7 @@
     self.searchField.delegate = self;
     [view addSubview:self.searchField];
     
+    // button
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     CGFloat buttonX = fieldW + 10;
     CGFloat buttonY = fieldY;
@@ -81,11 +89,12 @@
     locationView.layer.cornerRadius = 5;
     [locationView addSubview:locationButton];
     
-    // 4. 地图
+    // 地图
     self.mapView = [[MAMapView alloc] initWithFrame:CGRectMake(0, 20, ScreenWidth, ScreenHeight - 20)];
     [self.mapView addSubview:view];
     [self.mapView addSubview:locationView];
     [self.view addSubview:self.mapView];
+    
 }
 
 // 定位事件
