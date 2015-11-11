@@ -13,6 +13,7 @@
 
 @property (nonatomic, strong) NSMutableArray *sections;
 @property (nonatomic, weak) ZCWeatherCell *weatherCell;
+@property (nonatomic, copy) NSString *currentCity;
 
 @end
 
@@ -49,6 +50,9 @@ static NSString * const reuseIdentifier = @"ZCItemCell";
     if (!city) {
         city = @"南京";
     }
+    
+    self.currentCity = city;
+    
     // 加载天气
     [self loadWeatherData:city];
     
@@ -64,13 +68,29 @@ static NSString * const reuseIdentifier = @"ZCItemCell";
 
 - (void)initBarButtonItem {
     
-    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-    [button setBackgroundImage:[UIImage imageNamed:@"navigation_locationicon"] forState:UIControlStateNormal];
-    button.frame = CGRectMake(0, 0, button.currentBackgroundImage.size.width, button.currentBackgroundImage.size.height);
-    [button addTarget:self action:@selector(selectCity) forControlEvents:UIControlEventTouchUpInside];
+    // 选择城市
+    UIButton *selecteCityButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    [selecteCityButton setBackgroundImage:[UIImage imageNamed:@"navigation_locationicon"] forState:UIControlStateNormal];
+    selecteCityButton.frame = CGRectMake(0, 0, selecteCityButton.currentBackgroundImage.size.width, selecteCityButton.currentBackgroundImage.size.height);
+    [selecteCityButton addTarget:self action:@selector(selectCity) forControlEvents:UIControlEventTouchUpInside];
     
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:button];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:selecteCityButton];
     
+    // 刷新城市天气数据
+    UIButton *refreshButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    [refreshButton setImage:[UIImage imageNamed:@"refresh"] forState:UIControlStateNormal];
+    refreshButton.frame = CGRectMake(0, 0, 25, 25);
+    [refreshButton addTarget:self action:@selector(refreshCityData) forControlEvents:UIControlEventTouchUpInside];
+    
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:refreshButton];
+    
+}
+
+// 刷新城市数据
+- (void)refreshCityData {
+    
+    // 点击刷新就加载天气数据
+    [self loadWeatherData:self.currentCity];
 }
 
 // 选择城市

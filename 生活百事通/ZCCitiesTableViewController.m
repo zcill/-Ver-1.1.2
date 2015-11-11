@@ -53,7 +53,9 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+      
     return self.provincesAndCities.count;
+
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -71,7 +73,7 @@
     if (!cell) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:reuseID];
     }
-    
+        
     NSDictionary *citiesDict = self.provincesAndCities[indexPath.section];
     NSArray *citiesArray = citiesDict[@"Cities"];
     NSDictionary *cityTitleDict = citiesArray[indexPath.row];

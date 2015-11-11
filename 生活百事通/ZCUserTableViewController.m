@@ -55,7 +55,7 @@
     self.manager.style.defaultCellSelectionStyle = UITableViewCellSelectionStyleNone;
     
     // 添加Section
-    [self addSectionUpdate];
+//    [self addSectionUpdate];
     [self addSectionSetting];
     [self addSectionSuggestion];
     [self addSectionAbout];
@@ -115,6 +115,7 @@
     }];
     [section addItem:cleanItem];
     
+#if 0
     // 创建天气条目
     NSString *city = @"滁州";
     if (self.weatherModel) {
@@ -126,6 +127,8 @@
         
     }];
     [section addItem:weatherItem];
+    
+#endif
     
     // 创建定位按钮
     REBoolItem *locationItem = [REBoolItem itemWithTitle:@"定位" value:NO switchValueChangeHandler:^(REBoolItem *item) {
@@ -185,6 +188,8 @@
     // 创建评价条目
     RETableViewItem *discussItem = [RETableViewItem itemWithTitle:@"评分与评价" accessoryType:UITableViewCellAccessoryDisclosureIndicator selectionHandler:^(RETableViewItem *item) {
         
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://github.com/zcill/-Ver-1.1.2/issues"]];
+        
     }];
     [section addItem:discussItem];
     
@@ -207,11 +212,14 @@
     section.footerHeight = SectionFooterHeight;
     section.headerTitle = @"关于";
     
+#if 0
     // 创建开源许可条目
     RETableViewItem *licenceItem = [RETableViewItem itemWithTitle:@"开源许可" accessoryType:UITableViewCellAccessoryDisclosureIndicator selectionHandler:^(RETableViewItem *item) {
         
     }];
     [section addItem:licenceItem];
+    
+#endif
     
     // 创建关于条目
     RETableViewItem *aboutItem = [RETableViewItem itemWithTitle:@"关于" accessoryType:UITableViewCellAccessoryDisclosureIndicator selectionHandler:^(RETableViewItem *item) {
